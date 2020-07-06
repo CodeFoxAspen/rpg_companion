@@ -1,0 +1,491 @@
+[
+  {
+    "title": "Qual o seu estilo? Força, Magia ou Esperteza?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Força! Simples e direta!",
+        "guerreiro": 1
+      },
+      {
+        "text": "Magia, pois pode cobrir os outros dois.",
+        "guerreiro": 0.5,
+        "bardo": 0.5
+      },
+      {
+        "text": "Esperteza, uma aproximação direta nunca é a melhor nem a mais segura",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0.5,
+        "utility": 0.5
+      },
+      {
+        "text": "Força e Magia! Quem disse que magos precisam ser fracos?",
+        "brawl": 0.5,
+        "magic": 0.5,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Força e Esperteza. Algum problema em ser forte e agil?",
+        "brawl": 0.5,
+        "magic": 0,
+        "range": 0.0,
+        "utility": 0.5
+      },
+      {
+        "text": "Um pouco de tudo",
+        "brawl": 0.25,
+        "magic": 0.25,
+        "range": 0.25,
+        "utility": 0.25
+      }
+    ]
+  },
+  {
+    "title": "Qual a melhor maneira de melhorar a si mesmo e se tornar alguém incrível?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Estudar arduamente e/ou com uma dedicada disciplina",
+        "brawl": 0,
+        "magic": 0.8,
+        "range": 0,
+        "utility": 0.2
+      },
+      {
+        "text": "Ser naturalmente talentoso nas coias e, meio que, moldar o talento que já existe.",
+        "brawl": 0.2,
+        "magic": 0.1,
+        "range": 0.2,
+        "utility": 0.5
+      },
+      {
+        "text": "Observando e contemplando o mundo ao seu redor, permitindo que ele o inspire e ensine.",
+        "brawl": 0.1,
+        "magic": 0.4,
+        "range": 0.2,
+        "utility": 0.4
+      },
+      {
+        "text": "Segundo o conselho e exemplo daqueles que são melhores que você.",
+        "brawl": 0.3,
+        "magic": 0.2,
+        "range": 0.2,
+        "utility": 0.3
+      },
+      {
+        "text": "Usando de seu próprio julgamento interno para esculpir o caminho.",
+        "brawl": 0.4,
+        "magic": 0.2,
+        "range": 0,
+        "utility": 0.4
+      },
+      {
+        "text": "Experiência. Tentar o máximo de coisas diferentes possíveis. Você precisa se machucar para saber como lidar com a dor.",
+        "brawl": 0.4,
+        "magic": 0.1,
+        "range": 0,
+        "utility": 0.5
+      }
+    ]
+  },
+  {
+    "title": "A que distância você prefere lutar?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "De perto, sou o primeiro na defesa de meus amigos e o medo incarnado de meus inimigos.",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "De curta a média. Gosto de lutar de perto, mas prefiro me mover pelo campo de batalha do que aguentar a pancadaria.",
+        "brawl": 0.4,
+        "magic": 0,
+        "range": 0.2,
+        "utility": 0.4
+      },
+      {
+        "text": "Média. Bem no meio, onde possa pular para onde eu sou mais requisitado.",
+        "brawl": 0.2,
+        "magic": 0,
+        "range": 0.5,
+        "utility": 0.3
+      },
+      {
+        "text": "De média a longa. Prefiro ficar longe do combate, mas próximo o bastante para ajudar meus aliados.",
+        "brawl": 0,
+        "magic": 0.5,
+        "range": 0.3,
+        "utility": 0.2
+      },
+      {
+        "text": "Longa. Seguro morreu de velho, outros são mais preparados para apanhar do que eu.",
+        "brawl": 0,
+        "magic": 0.5,
+        "range": 0.5,
+        "utility": 0.0
+      },
+      {
+        "text": "Qualquer. Sou efetivo a qualquer distância.",
+        "brawl": 0.25,
+        "magic": 0.25,
+        "range": 0.25,
+        "utility": 0.25
+      }
+    ]
+  },
+  {
+    "title": "Qual sua arma favorita?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Meu corpo é minha principal arma.",
+        "brawl": 0.8,
+        "magic": 0,
+        "range": 0.1,
+        "utility": 0.1
+      },
+      {
+        "text": "Armas Leves. Como adagas e espadas curtas, faceis e rapidas de esconder.",
+        "brawl": 0.6,
+        "magic": 0,
+        "range": 0,
+        "utility": 0.4
+      },
+      {
+        "text": "Armas versáteis, como espadas longas e lanças. Podem ser usadas de várias maneiras ou até serem arremesadas contra inimigos ou unidas a escudos ou outras armas.",
+        "brawl": 0.5,
+        "magic": 0,
+        "range": 0.2,
+        "utility": 0.3
+      },
+      {
+        "text": "Uma arma unida a um escudo para proteção.",
+        "brawl": 0.7,
+        "magic": 0,
+        "range": 0,
+        "utility": 0.3
+      },
+      {
+        "text": "Uma arma de longo alcance, como um arco, uma besta ou granadas",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0.8,
+        "utility": 0.2
+      },
+      {
+        "text": "Quem precisa de armas quando se tem magia?",
+        "brawl": 0,
+        "magic": 0.8,
+        "range": 0,
+        "utility": 0.2
+      },
+      {
+        "text": "Uma pesada arma de duas mãos. A maior que tiver!",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      }
+    ]
+  },
+  {
+    "title": "Você complementa sua proesa marcial com...",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Técnicas avançadas de combate.",
+        "brawl": 0.7,
+        "magic": 0,
+        "range": 0,
+        "utility": 0.3
+      },
+      {
+        "text": "Mobilidade.",
+        "brawl": 0.1,
+        "magic": 0,
+        "range": 0.3,
+        "utility": 0.6
+      },
+      {
+        "text": "Venenos, armadilhas, maldições... coisas do tipo.",
+        "brawl": 0,
+        "magic": 0.3,
+        "range": 0.2,
+        "utility": 0.5
+      },
+      {
+        "text": "Magia ou poderes sobrenaturais.",
+        "brawl": 0,
+        "magic": 0.8,
+        "range": 0.2,
+        "utility": 0
+      },
+      {
+        "text": "FURIA!!!.",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Proesa marcial? Lutar no mano a mano? Está louco?",
+        "brawl": 0,
+        "magic": 0.6,
+        "range": 0.4,
+        "utility": 0
+      }
+    ]
+  },
+  {
+    "title": "Qual a melhor fonte de poder?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Meu próprio corpo bem treinado. Perca isto e qualquer outro poder é em vão.",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Um  espirito implacavel. A habilidade de ser fiel as suas crenças e não desistir frente a adversidade é o que faz uma pessoa gloriosa.",
+        "brawl": 0,
+        "magic": 1,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Qualquer. Sou efetivo a qualquer distância.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      },
+      {
+        "text": "Magia arcana. Domine a arcana e o próprio véu do universo vai se dobrar perante seus dedos.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 1,
+        "utility": 0
+      },
+      {
+        "text": "Deuses, espiritos, demonios... poderes alem de meros mortais são mantidos em segredo por seres de grande poder.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      },
+      {
+        "text": "A natureza. O poder para dar a vida e de tira-la. É a crueldade e a bindade, agua e fogo. A natureza é tudo.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "title": "O que você acha de animais?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Hmm... Saborosos...",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0.2
+      },
+      {
+        "text": "Grandes bestas são oponentes de grande valor.",
+        "brawl": 0.2,
+        "magic": 0,
+        "range": 0.6,
+        "utility": 0.2
+      },
+      {
+        "text": "Animais são companheiros melhores que humanos na maior parte das vezes.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0.8,
+        "utility": 0.2
+      },
+      {
+        "text": "Invocar criaturas mágicas para ajudar na batalha é bem útil, se é isso que você quer saber.",
+        "brawl": 0.2,
+        "magic": 0.6,
+        "range": 0,
+        "utility": 0.2
+      },
+      {
+        "text": "Nunca gostei muito de animais.",
+        "brawl": 0.4,
+        "magic": 0.2,
+        "range": 0,
+        "utility": 0.4
+      },
+      {
+        "text": "O mundo natural é fascinante.",
+        "brawl": 0,
+        "magic": 0.2,
+        "range": 0.6,
+        "utility": 0.2
+      },
+      {
+        "text": "Eles são legais.",
+        "brawl": 0,
+        "magic": 0.25,
+        "range": 0,
+        "utility": 0.75
+      }
+    ]
+  },
+  {
+    "title": "O quanto de magia você está disposto a aprender?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Dedicaria minha vida ao estudo academico do sobrenatural e arcano.",
+        "brawl": 0,
+        "magic": 1,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Dedicaria minha vida a ser mestre em magia, mas não acho que o estudo academico é a maneira para se aprender sobre a essencia da magia.",
+        "brawl": 0,
+        "magic": 0.8,
+        "range": 0,
+        "utility": 0.2
+      },
+      {
+        "text": "Magia tem o potencial para grande poder, mas é muito ampla como um todo. Eu daria foco em um escopo menor menor de magia e me tornaria mestre nisso",
+        "brawl": 0,
+        "magic": 0.75,
+        "range": 0.25,
+        "utility": 0
+      },
+      {
+        "text": "Magia seria uma parte importante para minhas habilidades, mas não posso focar exclusivamente nela.",
+        "brawl": 0,
+        "magic": 0.25,
+        "range": 0,
+        "utility": 0.75
+      },
+      {
+        "text": "Eu aprenderia somente um pouco de magia, o que ampliasse meus talentos, como um encantamento.",
+        "brawl": 0,
+        "magic": 0.3,
+        "range": 0.2,
+        "utility": 0.5
+      },
+      {
+        "text": "Não preciso de magia, tenho talentos o bastante por mim mesmo.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "title": "O quão bom você é em situações sociais?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Sou incrível. Me dou tão bem nisso que nessas situações as pessoas costumam gostar de mim bem rápido.",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Mando bem eu diria. Não a pessoa mais popular mas tenho um certo magnetismo.",
+        "brawl": 0,
+        "magic": 1,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Normal, nada que vá marcar na história.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 1,
+        "utility": 0
+      },
+      {
+        "text": "Eu sou solitário por natureza, isso meio que afasta algumas pessoas.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      },
+      {
+        "text": "Os animais me amam! Ah... você quis dizer pessoas...",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      },
+      {
+        "text": "Não muito bom. Eu acabo sendo ou o estranho ou o rispido.",
+        "brawl": 0,
+        "magic": 0,
+        "range": 0,
+        "utility": 1
+      }
+    ]
+  },
+  {
+    "title": "Qual você considera ser seu maior recurso?",
+    "type": "Class",
+    "choices": [
+      {
+        "text": "Força. Sou muito forte fisicamente",
+        "brawl": 1,
+        "magic": 0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Destreza. Sou esguio, agil e preciso.",
+        "brawl": 0.2,
+        "magic": 0,
+        "range": 0.2,
+        "utility": 0.6
+      },
+      {
+        "text": "Constituição. Sou muito forte e saudável o tempo todo.",
+        "brawl": 0.25,
+        "magic": 0,
+        "range": 0,
+        "utility": 0.75
+      },
+      {
+        "text": "Inteligencia. Possuo a vontade de aprender, a capacidade de obter muito conhecimento e desenvolver racicionio lógico",
+        "brawl": 0,
+        "magic": 1.0,
+        "range": 0,
+        "utility": 0
+      },
+      {
+        "text": "Sabedoria. Sou perceptivo e pensativo. Poucas coisas escapam minha percepção e tudo faz parte de um plano maior",
+        "brawl": 0,
+        "magic": 0.6,
+        "range": 0,
+        "utility": 0.4
+      },
+      {
+        "text": "Carisma. Eu sou uma pessoa legal e/ou amedrontadora, sou confiante na minha personalidade.",
+        "brawl": 0,
+        "magic": 0.2,
+        "range": 0,
+        "utility": 0.8
+      }
+    ]
+  }
+]
