@@ -1,4 +1,6 @@
-import 'package:flutter/material.dart';
+import 'package:rpgcompanion/models/answer_model.dart';
+import 'package:rpgcompanion/models/choice_model.dart';
+import 'package:rpgcompanion/models/question_model.dart';
 
 class CharacterBuilder {
   static final CharacterBuilder _instance = CharacterBuilder.internal();
@@ -9,12 +11,42 @@ class CharacterBuilder {
 
   ChoiceData choiceData = new ChoiceData();
 
-  void setClassPoints(int points) {
-    choiceData.classPoints = points;
+  List<Answer> selectedAnswers = [];
+
+  List<Choice> resultingScores = [];
+
+  void saveSelectedAnswer(Answer answer){
+    selectedAnswers.add(answer);
   }
 
-  void setRacePoints(int points) {
-    choiceData.racePoints = points;
+  void calculateCharacterScores(){
+    selectedAnswers.forEach((answer){
+      answer.options.forEach((option){
+        if(resultingScores.any((rs)=> rs.text == option.text)) {
+          resultingScores
+               .firstWhere((rs)=> rs.text == option.text)
+               .value += option.value;
+        } else {
+          resultingScores.add(new Choice(option.text, option.value));
+        }
+      });
+    });
+  }
+
+  String getHighestScoringClass(){
+    double highScore = 0;
+    String className = '';
+    resultingScores.forEach((rs){
+      if(rs.value > highScore) {
+        highScore = rs.value;
+        className = rs.text;
+      }
+    });
+    return className;
+  }
+
+  bool allQuestionsAreAnswered(List<Question> questions){
+    return questions.every((question)=> question.answered == true);
   }
 
   CharacterData createCharacter(String playerName, String characterName) {

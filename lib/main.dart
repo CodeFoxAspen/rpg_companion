@@ -9,24 +9,19 @@ import 'package:rpgcompanion/models/question_model.dart';
 
 import 'package:rpgcompanion/helpers/character_builder.dart';
 
-import 'application_pages/select_class_page.dart';
-import 'application_pages/select_race_page.dart';
-
 void main() => runApp(App());
 
 class App extends StatelessWidget {
-	final CharacterBuilder characterBuilder = new CharacterBuilder();
-
-	@override
-	Widget build(BuildContext context) {
-		return MaterialApp(initialRoute: '/', routes: {
-			'/': (ctx) => CompanionHome(),
-			'/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
-			'/loadCharacterScreen': (ctx) => CompanionHome(),
-			'/resultScreen': (ctx)=> null,
-			'/characterScreen': (ctx)=> null,
-		});
-	}
+  @override
+  Widget build(BuildContext context){
+    return MaterialApp(initialRoute: '/', routes: {
+      '/': (ctx)=> CompanionHome(),
+      '/newCharacterScreen': (ctx)=> CharacterQuestionsSlider(),
+      '/loadCharacterScreen': (ctx)=> CompanionHome(),
+      '/resultScreen': (ctx)=> CharacterResultScreen(),
+      '/characterScreen': (ctx)=> null,
+    });
+  }
 }
 
 class CompanionAppItem extends StatelessWidget {
@@ -68,6 +63,27 @@ class CompanionHome extends StatelessWidget {
         ));
   }
 }
+
+class CharacterResultScreen extends StatefulWidget {
+  @override
+  _CharacterResultScreenState createState()=> _CharacterResultScreenState();
+}
+
+class _CharacterResultScreenState extends State<CharacterResultScreen> {
+  final CharacterBuilder characterBuilder = new CharacterBuilder();
+
+  @override
+  Widget build(BuildContext context){
+    return Container(
+      child: Column(
+        children: <Widget>[
+          Text(characterBuilder.getHighestScoringClass()),
+        ],
+      ),
+    );
+  }
+}
+
 
 class CharacterQuestionsSlider extends StatefulWidget {
   @override
@@ -116,10 +132,15 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
 //                      ],
 //                    ),
                     CarouselSlider(
-                      items: listOfQuestions.questions.map((question)=>
+                      items: listOfQuestions.questions
+                           .map((question)=>
                            Container(
-                                child: QuestionWidget(questionsList: listOfQuestions.questions, question: question, controller: _controller,)
-                           )).toList(),
+                                child: QuestionWidget(
+                                  questionsList: listOfQuestions.questions,
+                                  question: question,
+                                  controller: _controller,
+                                )))
+                           .toList(),
                       options: CarouselOptions(
                         enlargeCenterPage: false,
                         height: height,
@@ -181,100 +202,10 @@ class QuestionWidget extends StatefulWidget {
 }
 
 class _QuestionWidgetState extends State<QuestionWidget> {
-
-	final CharacterBuilder characterBuilder = new CharacterBuilder();
-
-	bool questionsAreAnswered(List<Question> questions){
-		return questions.every((question)=> question.answered == true);
-	}
-
-	@override
-	Widget build(BuildContext context){
-		return Column(
-			children: <Widget>[
-				Container(
-					child: Padding(
-						padding: const EdgeInsets.all(20.0),
-						child: Column(
-							mainAxisAlignment: MainAxisAlignment.center,
-							crossAxisAlignment: CrossAxisAlignment.center,
-							children: <Widget>[
-								Text(
-									widget.question.title,
-									style: TextStyle(
-										fontSize: 20.0,
-										fontWeight: FontWeight.bold,
-									),
-								),
-							],
-						),
-					),
-				),
-				Padding(
-					padding: const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
-					child: Column(
-						mainAxisAlignment: MainAxisAlignment.center,
-						crossAxisAlignment: CrossAxisAlignment.center,
-						children: widget.question.choices
-							  .map((choice)=>
-							  Container(
-									 child: Padding(
-										 padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
-										 child: RaisedButton(
-											 onPressed: (){
-												 choice.selected = true;
-												 widget.question.answered = true;
-
-
-												 if(questionsAreAnswered(widget.questionsList)) {
-													 print('done');
-													 CompanionAppItem('Criar novo personagem', '/resultScreen');
-												 } else {
-													 widget.controller.nextPage();
-												 }
-											 },
-											 child: Text(choice.text),
-										 ),
-									 )))
-							  .toList(),
-					),
-				)
-			],
-		);
-//    return Container(
-//      child: ToggleButtons(
-//
-//        children: widget.question.choices.map((c) => Container(
-//             child: Text(c.text),
-//        )
-//      ).toList(),
-//        onPressed: (int index) {
-//          int count = 0;
-//          isSelected.forEach((bool val) {
-//            if (val) count++;
-//          });
-//
-//          if (isSelected[index] && count < 2)
-//            return;
-//
-//          setState(() {
-//            isSelected[index] = !isSelected[index];
-//          });
-//        },
-//        isSelected: isSelected,
-//      ),
-//    );
-	}
-}
-
-class OldQuestionWidget extends StatelessWidget {
-  final Question question;
-  final CarouselController controller;
-
-  OldQuestionWidget({@required this.question, @required this.controller});
+  final CharacterBuilder characterBuilder = new CharacterBuilder();
 
   @override
-  Widget build(BuildContext context) {
+  Widget build(BuildContext context){
     return Column(
       children: <Widget>[
         Container(
@@ -285,7 +216,7 @@ class OldQuestionWidget extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.center,
               children: <Widget>[
                 Text(
-                  question.title,
+                  widget.question.title,
                   style: TextStyle(
                     fontSize: 20.0,
                     fontWeight: FontWeight.bold,
@@ -300,171 +231,33 @@ class OldQuestionWidget extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
-            children: question.choices
-                .map((choice) => Container(
-                        child: Padding(
-                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
-                      child: RaisedButton(
-                        onPressed: () {
-                          controller.nextPage();
-                        },
-                        child: Text(choice.text),
-                      ),
-                    )))
-                .toList(),
+            children: widget.question.choices
+                 .map((choice)=>
+                 Container(
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
+                        child: RaisedButton(
+                          onPressed: (){
+                            if(widget.question.answered == false) {
+                              choice.selected = true;
+                              widget.question.answered = true;
+                              characterBuilder.saveSelectedAnswer(choice);
+
+                              if(characterBuilder.allQuestionsAreAnswered(widget.questionsList)) {
+                                characterBuilder.calculateCharacterScores();
+                                Navigator.pushNamed(context, '/resultScreen');
+                              } else {
+                                widget.controller.nextPage();
+                              }
+                            }
+                          },
+                          child: Text(choice.text),
+                        ),
+                      )))
+                 .toList(),
           ),
         )
       ],
     );
   }
 }
-
-/*void main() => runApp(App());
-class App extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-
-    CharacterBuilder characterBuilder = new CharacterBuilder();
-    return MaterialApp(
-      title: 'Flutter Navigation',
-      home: MainPage(),
-      routes: <String, WidgetBuilder> {
-        '/select_class': (BuildContext context) => SelectClass(),
-        '/select_race': (BuildContext context) => SelectRace(),
-        '/character_page': (BuildContext context) => CharacterPage(),
-      },
-    );
-  }
-}
-
-class MainPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return new Container(
-      color: Colors.white,
-      padding: EdgeInsets.all(10.0),
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: <Widget>[
-          RaisedButton(
-            onPressed: () {
-                Navigator.pushNamed(context, '/select_class');
-            },
-            child: Text(
-              'Adicionar Personagem',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22.0
-              ),
-            ),
-            color: Colors.black87,
-          ),
-          RaisedButton(
-            onPressed: () {},
-            child: Text(
-              'Carregar Personagem',
-              style: TextStyle(
-                  color: Colors.white,
-                  fontSize: 22.0
-              ),
-            ),
-            color: Colors.black87,
-          )
-        ],
-      ),
-    );
-  }
-}*/
-
-//  @override
-//  Widget build(BuildContext context) {
-//    return Scaffold(
-//      appBar: AppBar(
-//        title: Text('Main Page'),
-//      ),
-//      body: Center(
-//        child: Column(
-//          mainAxisAlignment: MainAxisAlignment.center,
-//          children: <Widget>[
-//            Text('Click button to move to SubPage'),
-//            RaisedButton(
-//              textColor: Colors.white,
-//              color: Colors.blue,
-//              child: Text('Go to SubPage'),
-//              onPressed: () {
-//                navigateToSubPage(context);
-//              },
-//            )
-//          ],
-//        ),
-//      ),
-//    );
-//  }
-//}
-//
-//class SubPage extends StatelessWidget {
-//  @override
-//  Widget build(BuildContext context) {
-//    return Scaffold(
-//      appBar: AppBar(
-//        title: Text('Sub Page'),
-//        backgroundColor: Colors.redAccent,
-//      ),
-//      body: Center(
-//        child: Column(
-//          mainAxisAlignment: MainAxisAlignment.center,
-//          children: <Widget>[
-//            Text('Click button to back to Main Page'),
-//            RaisedButton(
-//              textColor: Colors.white,
-//              color: Colors.redAccent,
-//              child: Text('Back to Main Page'),
-//              onPressed: () {
-//                Navigator.pop(context);
-//              },
-//            )
-//          ],
-//        ),
-//      ),
-//    );
-//  }
-//}
-
-//class Home extends StatefulWidget {
-//  @override
-//  _HomeState createState() => _HomeState();
-//}
-//
-//class _HomeState extends State<Home> {
-//
-//  PageManager _pageManager = PageManager();
-//
-//  final int initialPage = 0;
-//  int currentPageIndex = 0;
-//  List<Widget> applicationPages=[HomePage(), SelectClass(), SelectRace()];
-//
-//  @override
-//  Widget build(BuildContext context) {
-//    return Scaffold(
-//      appBar: AppBar(
-//        title: Text(
-//          'Tormenta Companion'
-//        ),
-//        backgroundColor: Colors.black87,
-//        centerTitle: true,
-//      ),
-//      body: PageView.builder(
-//        controller: PageController(
-//          initialPage: _pageManager.getInitialPageIndex,
-//        ),
-//        itemBuilder: (context, index) => applicationPages[index],
-//        itemCount: applicationPages.length,
-//      ),
-////      floatingActionButton: FloatingActionButton(
-////        onPressed: () {}, // TODO - ADD NEW CHARACTER
-////        child: Icon(Icons.add),
-////        backgroundColor: Colors.black87,//
-////      ),
-//    );
-//  }
-//}
