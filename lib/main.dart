@@ -1,17 +1,13 @@
-import 'dart:async';
 import 'dart:convert';
-import 'dart:io';
-import 'dart:math';
 
 import 'package:carousel_slider/carousel_slider.dart';
 
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 
-import 'package:rpgcompanion/application_pages/character_page.dart';
-import 'package:rpgcompanion/helpers/character_builder.dart';
 import 'package:rpgcompanion/models/question_model.dart';
+
+import 'package:rpgcompanion/helpers/character_builder.dart';
 
 import 'application_pages/select_class_page.dart';
 import 'application_pages/select_race_page.dart';
@@ -19,16 +15,18 @@ import 'application_pages/select_race_page.dart';
 void main() => runApp(App());
 
 class App extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: '/', routes: {
-      '/': (ctx) => CompanionHome(),
-      '/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
-      '/loadCharacterScreen': (ctx) => CompanionHome(),
-      '/resultScreen': (ctx)=> null,
-      '/characterScreen': (ctx)=> null,
-    });
-  }
+	final CharacterBuilder characterBuilder = new CharacterBuilder();
+
+	@override
+	Widget build(BuildContext context) {
+		return MaterialApp(initialRoute: '/', routes: {
+			'/': (ctx) => CompanionHome(),
+			'/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
+			'/loadCharacterScreen': (ctx) => CompanionHome(),
+			'/resultScreen': (ctx)=> null,
+			'/characterScreen': (ctx)=> null,
+		});
+	}
 }
 
 class CompanionAppItem extends StatelessWidget {
@@ -184,61 +182,65 @@ class QuestionWidget extends StatefulWidget {
 
 class _QuestionWidgetState extends State<QuestionWidget> {
 
-  bool questionsAreAnswered(List<Question> questions){
-    return questions.every((question)=> question.answered == true);
-  }
+	final CharacterBuilder characterBuilder = new CharacterBuilder();
 
-  @override
-  Widget build(BuildContext context){
-    return Column(
-      children: <Widget>[
-        Container(
-          child: Padding(
-            padding: const EdgeInsets.all(20.0),
-            child: Column(
-              mainAxisAlignment: MainAxisAlignment.center,
-              crossAxisAlignment: CrossAxisAlignment.center,
-              children: <Widget>[
-                Text(
-                  widget.question.title,
-                  style: TextStyle(
-                    fontSize: 20.0,
-                    fontWeight: FontWeight.bold,
-                  ),
-                ),
-              ],
-            ),
-          ),
-        ),
-        Padding(
-          padding: const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
-          child: Column(
-            mainAxisAlignment: MainAxisAlignment.center,
-            crossAxisAlignment: CrossAxisAlignment.center,
-            children: widget.question.choices
-                 .map((choice)=>
-                 Container(
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
-                        child: RaisedButton(
-                          onPressed: (){
-                            choice.selected = true;
-                            widget.question.answered = true;
-                            if(questionsAreAnswered(widget.questionsList)) {
-                              print('done');
-                              CompanionAppItem('Criar novo personagem', '/resultScreen');
-                            } else {
-                              widget.controller.nextPage();
-                            }
-                          },
-                          child: Text(choice.text),
-                        ),
-                      )))
-                 .toList(),
-          ),
-        )
-      ],
-    );
+	bool questionsAreAnswered(List<Question> questions){
+		return questions.every((question)=> question.answered == true);
+	}
+
+	@override
+	Widget build(BuildContext context){
+		return Column(
+			children: <Widget>[
+				Container(
+					child: Padding(
+						padding: const EdgeInsets.all(20.0),
+						child: Column(
+							mainAxisAlignment: MainAxisAlignment.center,
+							crossAxisAlignment: CrossAxisAlignment.center,
+							children: <Widget>[
+								Text(
+									widget.question.title,
+									style: TextStyle(
+										fontSize: 20.0,
+										fontWeight: FontWeight.bold,
+									),
+								),
+							],
+						),
+					),
+				),
+				Padding(
+					padding: const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
+					child: Column(
+						mainAxisAlignment: MainAxisAlignment.center,
+						crossAxisAlignment: CrossAxisAlignment.center,
+						children: widget.question.choices
+							  .map((choice)=>
+							  Container(
+									 child: Padding(
+										 padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
+										 child: RaisedButton(
+											 onPressed: (){
+												 choice.selected = true;
+												 widget.question.answered = true;
+
+
+												 if(questionsAreAnswered(widget.questionsList)) {
+													 print('done');
+													 CompanionAppItem('Criar novo personagem', '/resultScreen');
+												 } else {
+													 widget.controller.nextPage();
+												 }
+											 },
+											 child: Text(choice.text),
+										 ),
+									 )))
+							  .toList(),
+					),
+				)
+			],
+		);
 //    return Container(
 //      child: ToggleButtons(
 //
@@ -262,7 +264,7 @@ class _QuestionWidgetState extends State<QuestionWidget> {
 //        isSelected: isSelected,
 //      ),
 //    );
-  }
+	}
 }
 
 class OldQuestionWidget extends StatelessWidget {
