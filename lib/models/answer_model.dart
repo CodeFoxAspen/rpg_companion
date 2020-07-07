@@ -2,19 +2,10 @@ class Answer {
   int counter = 0;
 
   final String text;
-  final String brawl;
-  final String magic;
-  final String range;
-  final String utility;
   final Object options;
+  bool selected;
 
-  Answer(
-      {this.text,
-      this.brawl,
-      this.magic,
-      this.range,
-      this.utility,
-      this.options});
+  Answer({this.text, this.options, this.selected});
 
   factory Answer.fromJson(Map<String, dynamic> parsedJson) {
     var optionsFromJson = {};
@@ -26,6 +17,6 @@ class Answer {
     });
 
     return Answer(
-        text: parsedJson['text'].toString(), options: optionsFromJson);
+			text: parsedJson['text'].toString(), options: optionsFromJson, selected: false);
   }
 }

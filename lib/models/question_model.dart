@@ -12,19 +12,15 @@ class QuestionsList {
       questions: questions,
     );
   }
-
-  Object toObject() {
-    print(this);
-    return new Object();
-  }
 }
 
 class Question {
   final String title;
   final String type;
   final List<Answer> choices;
+  bool answered;
 
-  Question({this.title, this.type, this.choices});
+  Question({this.title, this.type, this.answered, this.choices});
 
   factory Question.fromJson(Map<String, dynamic> parsedJson) {
     var list = parsedJson['choices'] as List;
@@ -32,6 +28,7 @@ class Question {
     return new Question(
         title: parsedJson['title'],
         type: parsedJson['type'],
+			answered: false,
         choices: choiceList);
   }
 }

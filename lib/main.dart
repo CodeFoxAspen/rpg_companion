@@ -25,6 +25,8 @@ class App extends StatelessWidget {
       '/': (ctx) => CompanionHome(),
       '/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
       '/loadCharacterScreen': (ctx) => CompanionHome(),
+      '/resultScreen': (ctx)=> null,
+      '/characterScreen': (ctx)=> null,
     });
   }
 }
@@ -90,45 +92,36 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
 //        body: SingleChildScrollView(
         body: SingleChildScrollView(
             child: FutureBuilder(
-          future: DefaultAssetBundle.of(context)
-              .loadString('assets/questions_list.json'),
+              future: DefaultAssetBundle.of(context).loadString('assets/questions_list.json'),
           builder: (context, snapshot) {
             List<Widget> children;
             if (snapshot.hasData) {
-              var questionsListFromJson = json.decode(snapshot.data);
-              QuestionsList listOfQuestions =
-                  new QuestionsList.fromJson(questionsListFromJson);
-              dynamic listOfQuestionsObject = listOfQuestions.toObject();
-              print(listOfQuestionsObject);
-
+              QuestionsList listOfQuestions = new QuestionsList.fromJson(json.decode(snapshot.data));
               children = <Widget>[
                 Column(
                   children: <Widget>[
-                    Row(
-                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      children: <Widget>[
-                        Flexible(
-                          child: RaisedButton(
-                            onPressed: () => _controller.previousPage(),
-                            child: Text('Anterior'),
-                          ),
-                        ),
-                        Flexible(
-                          child: RaisedButton(
-                            onPressed: () => _controller.nextPage(),
-                            child: Text('Proxima'),
-                          ),
-                        ),
-                      ],
-                    ),
+//                    Row(
+//                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+//                      children: <Widget>[
+//                        Flexible(
+//                          child: RaisedButton(
+//                            onPressed: () => _controller.previousPage(),
+//                            child: Text('Anterior'),
+//                          ),
+//                        ),
+//                        Flexible(
+//                          child: RaisedButton(
+//                            onPressed: () => _controller.nextPage(),
+//                            child: Text('Proxima'),
+//                          ),
+//                        ),
+//                      ],
+//                    ),
                     CarouselSlider(
-                      items: listOfQuestions.questions
-                          .map((question) => Container(
-                                  child: QuestionWidget(
-                                question: question,
-                                controller: _controller,
-                              )))
-                          .toList(),
+                      items: listOfQuestions.questions.map((question)=>
+                           Container(
+                                child: QuestionWidget(questionsList: listOfQuestions.questions, question: question, controller: _controller,)
+                           )).toList(),
                       options: CarouselOptions(
                         enlargeCenterPage: false,
                         height: height,
@@ -178,11 +171,105 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
   }
 }
 
-class QuestionWidget extends StatelessWidget {
+class QuestionWidget extends StatefulWidget {
+  final List<Question> questionsList;
   final Question question;
   final CarouselController controller;
 
-  QuestionWidget({@required this.question, @required this.controller});
+  QuestionWidget({@required this.questionsList, @required this.question, @required this.controller});
+
+  @override
+  _QuestionWidgetState createState()=> _QuestionWidgetState();
+}
+
+class _QuestionWidgetState extends State<QuestionWidget> {
+
+  bool questionsAreAnswered(List<Question> questions){
+    return questions.every((question)=> question.answered == true);
+  }
+
+  @override
+  Widget build(BuildContext context){
+    return Column(
+      children: <Widget>[
+        Container(
+          child: Padding(
+            padding: const EdgeInsets.all(20.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                Text(
+                  widget.question.title,
+                  style: TextStyle(
+                    fontSize: 20.0,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
+              ],
+            ),
+          ),
+        ),
+        Padding(
+          padding: const EdgeInsets.fromLTRB(10.0, 0.0, 10.0, 0.0),
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            crossAxisAlignment: CrossAxisAlignment.center,
+            children: widget.question.choices
+                 .map((choice)=>
+                 Container(
+                      child: Padding(
+                        padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
+                        child: RaisedButton(
+                          onPressed: (){
+                            choice.selected = true;
+                            widget.question.answered = true;
+                            if(questionsAreAnswered(widget.questionsList)) {
+                              print('done');
+                              CompanionAppItem('Criar novo personagem', '/resultScreen');
+                            } else {
+                              widget.controller.nextPage();
+                            }
+                          },
+                          child: Text(choice.text),
+                        ),
+                      )))
+                 .toList(),
+          ),
+        )
+      ],
+    );
+//    return Container(
+//      child: ToggleButtons(
+//
+//        children: widget.question.choices.map((c) => Container(
+//             child: Text(c.text),
+//        )
+//      ).toList(),
+//        onPressed: (int index) {
+//          int count = 0;
+//          isSelected.forEach((bool val) {
+//            if (val) count++;
+//          });
+//
+//          if (isSelected[index] && count < 2)
+//            return;
+//
+//          setState(() {
+//            isSelected[index] = !isSelected[index];
+//          });
+//        },
+//        isSelected: isSelected,
+//      ),
+//    );
+  }
+}
+
+class OldQuestionWidget extends StatelessWidget {
+  final Question question;
+  final CarouselController controller;
+
+  OldQuestionWidget({@required this.question, @required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -218,11 +305,6 @@ class QuestionWidget extends StatelessWidget {
                       child: RaisedButton(
                         onPressed: () {
                           controller.nextPage();
-                          dynamic a = choice.options;
-                          a.keys;
-                          a.values;
-                          a.entries;
-                          print(a['brawl']);
                         },
                         child: Text(choice.text),
                       ),
