@@ -1,8 +1,8 @@
 [
   {
-    "class": "Ladino",
-    "race": "Halfling",
     "charData": {
+      "class": "Ladino",
+      "race": "Halfling",
       "Nome": "Jooris",
       "Alinhamento": "Leal e Mal",
       "Pontos_de_Vida": 15,
@@ -28,9 +28,9 @@
     }
   },
   {
-    "class": "Ladino",
-    "race": "Humano",
     "charData": {
+      "class": "Ladino",
+      "race": "Humano",
       "Nome": "Formenteet",
       "Alinhamento": "Neutro e Bom",
       "Pontos_de_Vida": 15,
@@ -56,9 +56,9 @@
     }
   },
   {
-    "class": "Guerreiro",
-    "race": "Humano",
     "charData": {
+      "class": "Guerreiro",
+      "race": "Humano",
       "Nome": "Barukk",
       "Alinhamento": "Neutro e Bom",
       "PV": "22",
@@ -84,9 +84,9 @@
     }
   },
   {
-    "class": "Guerreiro",
-    "race": "Anão",
     "charData": {
+      "class": "Guerreiro",
+      "race": "Anão",
       "Nome": "Splenter ",
       "Alinhamento": "Leal e Bom",
       "PV": "22",
@@ -113,9 +113,9 @@
     }
   },
   {
-    "class": "Barbaro",
-    "race": "Anão",
     "charData": {
+      "class": "Barbaro",
+      "race": "Anão",
       "Nome": "Grunnar",
       "Alinhamento": "Neutro e Bom",
       "PV": "22",
@@ -141,9 +141,9 @@
     }
   },
   {
-    "class": "Barbaro",
-    "race": "Minotauro",
     "charData": {
+      "class": "Barbaro",
+      "race": "Minotauro",
       "Nome": "Dros",
       "Alinhamento": "Neutro e Bom",
       "PV": "25",
@@ -170,9 +170,9 @@
     }
   },
   {
-    "class": "Ranger",
-    "race": "Elfo",
     "charData": {
+      "class": "Ranger",
+      "race": "Elfo",
       "Nome": "Gertrud ",
       "Alinhamento": "Neutro e Mau",
       "PV": "16",
