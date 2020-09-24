@@ -1,6 +1,11 @@
 import 'package:rpgcompanion/models/answer_model.dart';
+import 'package:rpgcompanion/models/character_model.dart';
 import 'package:rpgcompanion/models/choice_model.dart';
 import 'package:rpgcompanion/models/question_model.dart';
+
+import 'package:flutter/cupertino.dart';
+import 'package:flutter/material.dart';
+import 'dart:convert';
 
 class CharacterBuilder {
   static final CharacterBuilder _instance = CharacterBuilder.internal();
@@ -49,12 +54,13 @@ class CharacterBuilder {
     return questions.every((question)=> question.answered == true);
   }
 
-  void loadCharacterDatabase() {
+  Future<CharacterList> loadCharacterDatabase(BuildContext context) async {
 
-  }
+    var dummyThing = await DefaultAssetBundle.of(context).loadString('assets/questions_list.json');
 
-  Object loadCharacter() {
+    CharacterList listOfCharacters = new CharacterList.fromJson(json.decode(dummyThing));
 
+    return listOfCharacters;
   }
 
   CharacterData createCharacter(String playerName, String characterName) {

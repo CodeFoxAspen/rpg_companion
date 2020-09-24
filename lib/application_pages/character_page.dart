@@ -1,5 +1,8 @@
+import 'dart:convert';
+
 import 'package:flutter/material.dart';
 import 'package:rpgcompanion/helpers/character_builder.dart';
+import 'package:rpgcompanion/models/character_model.dart';
 
 class CharacterPage extends StatefulWidget {
   @override
@@ -17,19 +20,41 @@ class _CharacterPageState extends State<CharacterPage> {
   @override
   Widget build(BuildContext context) {
     CharacterBuilder characterBuilder = CharacterBuilder();
-	 CharacterData characterData = characterBuilder.createCharacter('Pablo', 'Pablo Character');
+	 Future<CharacterList> characterList = characterBuilder.loadCharacterDatabase(context);
 //    String tendencyEthics = characterData.tendencyEthics;
 //    String tendencyMorality = characterData.tendencyMorality;
 
-    return new Container(
-      color: Colors.white,
-      padding: EdgeInsets.all(10.0),
-		 child: Column(
-        children: <Widget>[
-			  Text(characterData.characterClass)
-		  ],
-		 ),
-	 );
+	  return Scaffold(
+		  appBar: AppBar(
+			  title: Text('Character Sheet'),
+			  centerTitle: true,
+		  ),
+		  body: SingleChildScrollView(
+			  child: FutureBuilder(
+				  future: characterList,
+				  builder: (context, snapshot) {
+				  	List<Widget> children;
+				  	if (snapshot.hasData) {
+						CharacterList listOfCharacters = new CharacterList.fromJson(json.decode(snapshot.data));
+					} else if (snapshot.hasError) {
+
+					} else {
+
+					}
+				  }
+			  ),
+		  ),
+	  );
+
+//    return new Container(
+//      color: Colors.white,
+//      padding: EdgeInsets.all(10.0),
+//		 child: Column(
+//        children: <Widget>[
+//			  Text(characterData.characterClass)
+//		  ],
+//		 ),
+//	 );
 
 //    return new Container(
 //      color: Colors.white,
