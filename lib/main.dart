@@ -75,15 +75,17 @@ class _CharacterResultScreenState extends State<CharacterResultScreen> {
   @override
   Widget build(BuildContext context){
     return Container(
+      color: Colors.white,
+      padding: EdgeInsets.all(10.0),
       child: Column(
         children: <Widget>[
-          Text(characterBuilder.getHighestScoringClass()),
+          Text(characterBuilder.getHighestScoringClass(),
+         style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
         ],
       ),
     );
   }
 }
-
 
 class CharacterQuestionsSlider extends StatefulWidget {
   @override
@@ -114,23 +116,6 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
               children = <Widget>[
                 Column(
                   children: <Widget>[
-//                    Row(
-//                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
-//                      children: <Widget>[
-//                        Flexible(
-//                          child: RaisedButton(
-//                            onPressed: () => _controller.previousPage(),
-//                            child: Text('Anterior'),
-//                          ),
-//                        ),
-//                        Flexible(
-//                          child: RaisedButton(
-//                            onPressed: () => _controller.nextPage(),
-//                            child: Text('Proxima'),
-//                          ),
-//                        ),
-//                      ],
-//                    ),
                     CarouselSlider(
                       items: listOfQuestions.questions
                            .map((question)=>
