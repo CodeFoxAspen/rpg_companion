@@ -49,6 +49,14 @@ class CharacterBuilder {
     return questions.every((question)=> question.answered == true);
   }
 
+  void loadCharacterDatabase() {
+
+  }
+
+  Object loadCharacter() {
+
+  }
+
   CharacterData createCharacter(String playerName, String characterName) {
     print('Creating Character');
     int id = DateTime.now().millisecondsSinceEpoch;
