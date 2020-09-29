@@ -24,7 +24,8 @@ class Question {
 
   factory Question.fromJson(Map<String, dynamic> parsedJson) {
     var list = parsedJson['choices'] as List;
-    List<Answer> choiceList = list.map((i) => Answer.fromJson(i)).toList();
+    var questionType = parsedJson['type'] as String;
+    List<Answer> choiceList = list.map((i) => Answer.fromJson(i, questionType)).toList();
     return new Question(
         title: parsedJson['title'],
         type: parsedJson['type'],

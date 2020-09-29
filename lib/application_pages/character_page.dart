@@ -10,17 +10,9 @@ class CharacterPage extends StatefulWidget {
 }
 
 class _CharacterPageState extends State<CharacterPage> {
-  final sheetSections = [
-    'Basic Info',
-    'Attributes',
-    'Resistances',
-    'Hit points'
-  ];
-
   @override
   Widget build(BuildContext context) {
     CharacterBuilder characterBuilder = CharacterBuilder();
-	 Future<CharacterList> characterList = characterBuilder.loadCharacterDatabase(context);
 //    String tendencyEthics = characterData.tendencyEthics;
 //    String tendencyMorality = characterData.tendencyMorality;
 
@@ -31,16 +23,57 @@ class _CharacterPageState extends State<CharacterPage> {
 		  ),
 		  body: SingleChildScrollView(
 			  child: FutureBuilder(
-				  future: characterList,
+				  future: DefaultAssetBundle.of(context).loadString('assets/character_database.json'),
 				  builder: (context, snapshot) {
 				  	List<Widget> children;
 				  	if (snapshot.hasData) {
 						CharacterList listOfCharacters = new CharacterList.fromJson(json.decode(snapshot.data));
+						var characterData = characterBuilder.selectCharacter(listOfCharacters);
+
+
+						children = <Widget>[
+							Icon(
+								Icons.error_outline,
+								color: Colors.red,
+								size: 60,
+							),
+							Padding(
+								padding: const EdgeInsets.only(top: 16),
+								child: Text('Error: AWESOME'),
+							)
+						];
 					} else if (snapshot.hasError) {
-
+						children = <Widget>[
+							Icon(
+								Icons.error_outline,
+								color: Colors.red,
+								size: 60,
+							),
+							Padding(
+								padding: const EdgeInsets.only(top: 16),
+								child: Text('Error: ${snapshot.error}'),
+							)
+						];
 					} else {
-
+						children = <Widget>[
+							SizedBox(
+								child: CircularProgressIndicator(),
+								width: 60,
+								height: 60,
+							),
+							const Padding(
+								padding: EdgeInsets.only(top: 16.0),
+								child: Text('Awaiting result...'),
+							)
+						];
 					}
+					return Center(
+						child: Column(
+							mainAxisAlignment: MainAxisAlignment.center,
+							crossAxisAlignment: CrossAxisAlignment.center,
+							children: children,
+						),
+					);
 				  }
 			  ),
 		  ),

@@ -1050,5 +1050,29 @@
         "swashbuckler": 0.25
       }
     ]
+  },
+  {
+    "title": "Qual a sua raça?",
+    "type": "Race",
+    "choices": [
+      {
+        "text": "Humano",
+        "humano": 1.0,
+        "elfo": 0.5,
+        "anão": 0.5
+      },
+      {
+        "text": "Elfo",
+        "humano": 0.5,
+        "elfo": 1.0,
+        "anão": 0.0
+      },
+      {
+        "text": "Anão",
+        "humano": 0.5,
+        "elfo": 0.0,
+        "anão": 1.0
+      }
+    ]
   }
 ]

@@ -142,8 +142,8 @@
   },
   {
     "charData": {
-      "class": "Barbaro",
-      "race": "Minotauro",
+      "Class": "Barbaro",
+      "Race": "Minotauro",
       "Nome": "Dros",
       "Alinhamento": "Neutro e Bom",
       "PV": "25",

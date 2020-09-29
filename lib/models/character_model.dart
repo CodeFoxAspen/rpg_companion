@@ -13,18 +13,18 @@ class CharacterList {
 }
 
 class Character {
-  final List<CharacterData> choices;
+  final List<CharacterData> characterData;
 
-  Character({this.choices});
+  Character({this.characterData});
 
   factory Character.fromJson(Map<String, dynamic> parsedJson) {
     List<CharacterData> dataFromJson = [];
 
-    parsedJson.entries.forEach((entry) {
-      dataFromJson.add(new CharacterData(entry.key, entry.value));
+    parsedJson['charData'].entries.forEach((entry) {
+      dataFromJson.add(new CharacterData(entry.key, entry.value.toString()));
     });
 
-    return new Character(choices: dataFromJson);
+    return new Character(characterData: dataFromJson);
   }
 }
 
