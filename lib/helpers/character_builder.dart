@@ -32,7 +32,7 @@ class CharacterBuilder {
                .firstWhere((rs)=> rs.text == option.text)
                .value += option.value;
         } else {
-          resultingScores.add(new ResultingScores(option.text, answer.type, option.value));
+          resultingScores.add(new ResultingScores(option.text, answer.target, option.value));
         }
       });
     });
@@ -45,12 +45,12 @@ class CharacterBuilder {
     List<String> resultsList = [];
 
     resultingScores.forEach((rs) {
-      if(typesList.indexOf(rs.type) == -1) {typesList.add(rs.type);}
+      if(typesList.indexOf(rs.target) == -1) {typesList.add(rs.target);}
     });
 
-    typesList.forEach((type) {
+    typesList.forEach((target) {
       resultingScores.forEach((rs) {
-        if(rs.type.toLowerCase() == type.toLowerCase() && rs.value > highScore) {
+        if(rs.target.toLowerCase() == target.toLowerCase() && rs.value > highScore) {
           highScore = rs.value;
           keyName = rs.text;
         }
