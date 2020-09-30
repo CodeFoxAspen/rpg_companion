@@ -1,6 +1,7 @@
 import 'package:rpgcompanion/models/answer_model.dart';
 import 'package:rpgcompanion/models/character_model.dart';
 import 'package:rpgcompanion/models/choice_model.dart';
+import 'package:rpgcompanion/models/high_score_model.dart';
 import 'package:rpgcompanion/models/question_model.dart';
 
 import 'package:flutter/cupertino.dart';
@@ -38,11 +39,11 @@ class CharacterBuilder {
     });
   }
 
-  List<String> getHighestScoringValues(){
+  List<HighScoreKeyTarget> getHighestScoringValues(){
     double highScore = 0;
     String keyName = '';
     List<String> typesList = [];
-    List<String> resultsList = [];
+    List<HighScoreKeyTarget> keyTargetList = [];
 
     resultingScores.forEach((rs) {
       if(typesList.indexOf(rs.target) == -1) {typesList.add(rs.target);}
@@ -55,30 +56,33 @@ class CharacterBuilder {
           keyName = rs.text;
         }
       });
-      resultsList.add(keyName);
+      keyTargetList.add(new HighScoreKeyTarget(keyName, target));
       keyName = '';
       highScore = 0;
     });
-    return resultsList;
+    return keyTargetList;
   }
 
   bool allQuestionsAreAnswered(List<Question> questions){
     return questions.every((question)=> question.answered == true);
   }
 
-  selectCharacter(CharacterList listOfCharacters){
-    List<String> highScoreKeysToFind = getHighestScoringValues();
-    List<Character> resultingCharacters;
+  Character selectCharacter(CharacterList listOfCharacters){
+    List<HighScoreKeyTarget> highScoreKeysToFind = getHighestScoringValues();
+    List<Character> resultingCharacters = [];
 
-    highScoreKeysToFind[0]; //string
-
-
-    listOfCharacters.characters.forEach((character) {
-        character.characterData.forEach((charData) {
-          if (charData.keyValue.toString().toLowerCase() == highScoreKeysToFind[0]) {
-            resultingCharacters.add(character);
-          }
-        });
+    highScoreKeysToFind.forEach((targetKey) {
+      listOfCharacters.characters.forEach((character) {
+        if (character.hasValueInKey(highScoreKeysToFind[0].key, highScoreKeysToFind[0].target)) {
+          resultingCharacters.add(character);
+        }
       });
+    });
+
+    if (resultingCharacters.length == 0) {
+      resultingCharacters.add(new Character());
     }
+
+    return resultingCharacters[0];
+  }
 }

@@ -17,6 +17,18 @@ class Character {
 
   Character({this.characterData});
 
+  bool hasValueInKey(String value, String key) {
+    return this.characterData.any((charData) {
+      return (
+           charData.keyValue.toString().toLowerCase() == value.toString().toLowerCase()
+                && charData.keyTitle.toString().toLowerCase() == key.toString().toLowerCase());
+    });
+  }
+
+  bool isEmpty() {
+    return this.characterData.length > 0;
+  }
+
   factory Character.fromJson(Map<String, dynamic> parsedJson) {
     List<CharacterData> dataFromJson = [];
 
