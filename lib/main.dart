@@ -1,13 +1,11 @@
 import 'dart:convert';
-
 import 'package:carousel_slider/carousel_slider.dart';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-
 import 'package:rpgcompanion/models/question_model.dart';
-
 import 'package:rpgcompanion/helpers/character_builder.dart';
+
+import 'application_pages/character_page.dart';
 
 void main() => runApp(App());
 
@@ -18,7 +16,7 @@ class App extends StatelessWidget {
       '/': (ctx)=> CompanionHome(),
       '/newCharacterScreen': (ctx)=> CharacterQuestionsSlider(),
       '/loadCharacterScreen': (ctx)=> CompanionHome(),
-      '/resultScreen': (ctx)=> CharacterResultScreen(),
+      '/resultScreen': (ctx)=> CharacterPage(),
       '/characterScreen': (ctx)=> null,
     });
   }
@@ -61,29 +59,6 @@ class CompanionHome extends StatelessWidget {
             CompanionAppItem('Carregar Personagem', '/loadCharacterScreen'),
           ],
         ));
-  }
-}
-
-class CharacterResultScreen extends StatefulWidget {
-  @override
-  _CharacterResultScreenState createState()=> _CharacterResultScreenState();
-}
-
-class _CharacterResultScreenState extends State<CharacterResultScreen> {
-  final CharacterBuilder characterBuilder = new CharacterBuilder();
-
-  @override
-  Widget build(BuildContext context){
-    return Container(
-      color: Colors.white,
-      padding: EdgeInsets.all(10.0),
-      child: Column(
-        children: <Widget>[
-          Text(characterBuilder.getHighestScoringClass(),
-         style: TextStyle(fontWeight: FontWeight.bold, color: Colors.black)),
-        ],
-      ),
-    );
   }
 }
 
