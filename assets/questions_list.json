@@ -1,7 +1,7 @@
 [
   {
     "title": "Qual o seu estilo? Força, Magia ou Esperteza?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Força! Simples e direta!",
@@ -103,7 +103,7 @@
   },
   {
     "title": "Qual a melhor maneira de melhorar a si mesmo e se tornar alguém incrível?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Estudar arduamente e/ou com uma dedicada disciplina",
@@ -205,7 +205,7 @@
   },
   {
     "title": "A que distância você prefere lutar?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "De perto, sou o primeiro na defesa de meus amigos e o medo incarnado de meus inimigos.",
@@ -307,7 +307,7 @@
   },
   {
     "title": "Qual sua arma favorita?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Meu corpo é minha principal arma.",
@@ -425,7 +425,7 @@
   },
   {
     "title": "Você complementa sua proesa marcial com...",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Técnicas avançadas de combate.",
@@ -527,7 +527,7 @@
   },
   {
     "title": "Qual a melhor fonte de poder?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Meu próprio corpo bem treinado. Perca isto e qualquer outro poder é em vão.",
@@ -629,7 +629,7 @@
   },
   {
     "title": "O que você acha de animais?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Hmm... Saborosos...",
@@ -747,7 +747,7 @@
   },
   {
     "title": "O quanto de magia você está disposto a aprender?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Dedicaria minha vida ao estudo academico do sobrenatural e arcano.",
@@ -849,7 +849,7 @@
   },
   {
     "title": "O quão bom você é em situações sociais?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Sou incrível. Me dou tão bem nisso que nessas situações as pessoas costumam gostar de mim bem rápido.",
@@ -951,7 +951,7 @@
   },
   {
     "title": "Qual você considera ser seu maior recurso?",
-    "type": "Class",
+    "target": "Class",
     "choices": [
       {
         "text": "Força. Sou muito forte fisicamente",
@@ -1053,7 +1053,7 @@
   },
   {
     "title": "Qual a sua raça?",
-    "type": "Race",
+    "target": "Race",
     "choices": [
       {
         "text": "Humano",

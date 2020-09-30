@@ -2,11 +2,11 @@ import 'package:rpgcompanion/models/choice_model.dart';
 
 class Answer {
   final String text;
-  final String type;
+  final String target;
   final List<Choice> options;
   bool selected;
 
-  Answer({this.text, this.type, this.options, this.selected});
+  Answer({this.text, this.target, this.options, this.selected});
 
   factory Answer.fromJson(Map<String, dynamic> parsedJson, String questionType) {
     List<Choice> optionsFromJson = [];
@@ -19,7 +19,7 @@ class Answer {
 
     return Answer(
          text: parsedJson['text'].toString(),
-         type: questionType,
+         target: questionType,
          options: optionsFromJson,
          selected: false);
   }

@@ -1,11 +1,11 @@
 class ResultingScores {
   String text;
-  String type;
+  String target;
   double value;
 
-  ResultingScores(String _text, String _type, double _value) {
+  ResultingScores(String _text, String _target, double _value) {
     this.text = _text;
-    this.type = _type;
+    this.target = _target;
     this.value = _value;
   }
 }

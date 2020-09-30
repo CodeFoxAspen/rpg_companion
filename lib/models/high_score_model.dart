@@ -1,9 +1,9 @@
-class HighScore {
+class HighScoreKeyTarget {
   String key;
-  String type;
+  String target;
 
-  HighScore(String _text, String _type) {
+  HighScoreKeyTarget(String _text, String _target) {
     this.key = _text;
-    this.type = _type;
+    this.target = _target;
   }
 }

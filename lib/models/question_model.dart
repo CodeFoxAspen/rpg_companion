@@ -16,19 +16,19 @@ class QuestionsList {
 
 class Question {
   final String title;
-  final String type;
+  final String target;
   final List<Answer> choices;
   bool answered;
 
-  Question({this.title, this.type, this.answered, this.choices});
+  Question({this.title, this.target, this.answered, this.choices});
 
   factory Question.fromJson(Map<String, dynamic> parsedJson) {
     var list = parsedJson['choices'] as List;
-    var questionType = parsedJson['type'] as String;
+    var questionType = parsedJson['target'] as String;
     List<Answer> choiceList = list.map((i) => Answer.fromJson(i, questionType)).toList();
     return new Question(
         title: parsedJson['title'],
-        type: parsedJson['type'],
+         target: parsedJson['target'],
 			answered: false,
         choices: choiceList);
   }
