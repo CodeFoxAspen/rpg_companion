@@ -20,6 +20,15 @@ class _CharacterPageState extends State<CharacterPage> {
       appBar: AppBar(
         title: Text('Character Sheet'),
         centerTitle: true,
+        leading: Builder(
+          builder: (BuildContext context) {
+            return IconButton(
+              icon: const Icon(Icons.arrow_back),
+              onPressed: () { Navigator.pushNamedAndRemoveUntil(context, "/", (r) => false); },
+              tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+            );
+          },
+        ),
       ),
       body: SingleChildScrollView(
         child: FutureBuilder(

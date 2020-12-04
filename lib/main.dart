@@ -13,7 +13,7 @@ void main() => runApp(App());
 class App extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(initialRoute: '/', routes: {
+    return MaterialApp(debugShowCheckedModeBanner: false, initialRoute: '/', routes: {
       '/': (ctx) => CompanionHome(),
       '/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
       '/loadCharacterScreen': (ctx) => CompanionHome(),
@@ -51,16 +51,23 @@ class CompanionHome extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(
-          title: Text('RPG Companion App'),
-        ),
-        body: ListView(
-          children: <Widget>[
+      appBar: AppBar(
+        title: Text('RPG Companion App'),
+      ),
+      body: Padding(
+          padding: EdgeInsets.all(25),
+          child: ListView(
+            children: <Widget>[
+              Padding(
+                child: Image(fit: BoxFit.fitHeight, image: AssetImage('rpg_companion_logo.png')),
+                padding: EdgeInsets.all(50)
+              ),
 //            CompanionAppItem('Home', '/'),
-            CompanionAppItem('Criar novo personagem', '/flavorScreen'),
-            CompanionAppItem('Carregar Personagem', '/loadCharacterScreen'),
-          ],
-        ));
+              CompanionAppItem('Criar novo personagem', '/flavorScreen'),
+//            CompanionAppItem('Carregar Personagem', '/loadCharacterScreen'),
+            ],
+          )),
+    );
   }
 }
 
@@ -88,16 +95,18 @@ class _FlavorPageState extends State<FlavorPage> {
                 RichText(
                   text: TextSpan(
                     text: '',
-                    style: TextStyle(
-                         color: Colors.black,
-                         fontSize: 18,
-                         fontWeight: FontWeight.normal
-                    ),
+                    style: TextStyle(color: Colors.black, fontSize: 18, fontWeight: FontWeight.normal),
                     children: <TextSpan>[
                       TextSpan(text: '    Interpretar um personagem\n\n', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
-                      TextSpan(text: '    Quando jogar RPG lembre-se de que você age pelo seu personagem. Interpreta-lo é permitir-se entrar no mundo ficticio criado pelo Mestre da mesa e atuar ativamente dentro dele.\n\n'),
-                      TextSpan(text: '    Explore situações fora do seu cotidiano, aprenda a lidar com os desafios! Aja com liberdade, imagine e faça. Você e seu grupo serão os responsáveis pela própria glória.\n\n'),
-                      TextSpan(text: '    Se estiver confortável, lembre-se de falar pelo seu personagem. É possível dizer ao grupo o que irá fazer, mas você pode realmente interpretar e ser a voz e o sotaque do seu próprio personagem!'),
+                      TextSpan(
+                          text:
+                              '    Quando jogar RPG lembre-se de que você age pelo seu personagem. Interpreta-lo é permitir-se entrar no mundo ficticio criado pelo Mestre da mesa e atuar ativamente dentro dele.\n\n'),
+                      TextSpan(
+                          text:
+                              '    Explore situações fora do seu cotidiano, aprenda a lidar com os desafios! Aja com liberdade, imagine e faça. Você e seu grupo serão os responsáveis pela própria glória.\n\n'),
+                      TextSpan(
+                          text:
+                              '    Se estiver confortável, lembre-se de falar pelo seu personagem. É possível dizer ao grupo o que irá fazer, mas você pode realmente interpretar e ser a voz e o sotaque do seu próprio personagem!'),
                     ],
                   ),
                 ),
@@ -131,8 +140,18 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
         appBar: AppBar(
           title: Text('Questions'),
           centerTitle: true,
-        ),
-//        body: SingleChildScrollView(
+          leading: Builder(
+            builder: (BuildContext context) {
+              return IconButton(
+                icon: const Icon(Icons.arrow_back),
+                onPressed: () {
+                  Navigator.pushNamedAndRemoveUntil(context, "/", (r) => false);
+                },
+                tooltip: MaterialLocalizations.of(context).openAppDrawerTooltip,
+              );
+            },
+          ),
+        ), //        body: SingleChildScrollView(
         body: SingleChildScrollView(
             child: FutureBuilder(
           future: DefaultAssetBundle.of(context).loadString('assets/questions_list.json'),
