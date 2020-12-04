@@ -33,7 +33,14 @@ class Character {
     List<CharacterData> dataFromJson = [];
 
     parsedJson['charData'].entries.forEach((entry) {
-      dataFromJson.add(new CharacterData(entry.key, entry.value.toString()));
+      if(entry.key.toString().toLowerCase().startsWith("%e_", 0))
+        {
+          var keyTitle = entry.key.toString() + "A";
+          dataFromJson.add(new CharacterData(keyTitle, entry.value.toString(), true));
+        } else {
+        dataFromJson.add(new CharacterData(entry.key, entry.value.toString()));
+      }
+
     });
 
     return new Character(characterData: dataFromJson);
@@ -43,10 +50,12 @@ class Character {
 class CharacterData {
   String keyTitle;
   String keyValue;
+  bool isEditable;
 
-  CharacterData(String _text, String _value) {
+  CharacterData(String _text, String _value, [bool _isEditable = false]) {
     this.keyTitle = _text;
     this.keyValue = _value;
+    this.isEditable = _isEditable;
   }
 }
 

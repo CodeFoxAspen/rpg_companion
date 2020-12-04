@@ -7,6 +7,7 @@ import 'package:rpgcompanion/models/question_model.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'dart:convert';
+import 'dart:math';
 
 import 'package:rpgcompanion/models/resulting_score_model.dart';
 
@@ -83,6 +84,8 @@ class CharacterBuilder {
       resultingCharacters.add(new Character());
     }
 
-    return resultingCharacters[0];
+    int randomSeed = new Random().nextInt(9);
+
+    return resultingCharacters[randomSeed];
   }
 }

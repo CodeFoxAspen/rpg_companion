@@ -6,18 +6,20 @@ import 'package:rpgcompanion/models/question_model.dart';
 import 'package:rpgcompanion/helpers/character_builder.dart';
 
 import 'application_pages/character_page.dart';
+import 'application_pages/flavor_page.dart';
 
 void main() => runApp(App());
 
 class App extends StatelessWidget {
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return MaterialApp(initialRoute: '/', routes: {
-      '/': (ctx)=> CompanionHome(),
-      '/newCharacterScreen': (ctx)=> CharacterQuestionsSlider(),
-      '/loadCharacterScreen': (ctx)=> CompanionHome(),
-      '/resultScreen': (ctx)=> CharacterPage(),
-      '/characterScreen': (ctx)=> null,
+      '/': (ctx) => CompanionHome(),
+      '/newCharacterScreen': (ctx) => CharacterQuestionsSlider(),
+      '/loadCharacterScreen': (ctx) => CompanionHome(),
+      '/resultScreen': (ctx) => CharacterPage(),
+      '/flavorScreen': (ctx) => FlavorPage(),
+      '/characterScreen': (ctx) => null,
     });
   }
 }
@@ -55,10 +57,60 @@ class CompanionHome extends StatelessWidget {
         body: ListView(
           children: <Widget>[
 //            CompanionAppItem('Home', '/'),
-            CompanionAppItem('Criar novo personagem', '/newCharacterScreen'),
+            CompanionAppItem('Criar novo personagem', '/flavorScreen'),
             CompanionAppItem('Carregar Personagem', '/loadCharacterScreen'),
           ],
         ));
+  }
+}
+
+class FlavorPage extends StatefulWidget {
+  @override
+  _FlavorPageState createState() => _FlavorPageState();
+}
+
+class _FlavorPageState extends State<FlavorPage> {
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: Text('RPG'),
+        centerTitle: true,
+      ),
+      body: SingleChildScrollView(
+        child: Container(
+          child: Padding(
+            padding: EdgeInsets.all(25.0),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: <Widget>[
+                RichText(
+                  text: TextSpan(
+                    text: '',
+                    style: TextStyle(
+                         color: Colors.black,
+                         fontSize: 18,
+                         fontWeight: FontWeight.normal
+                    ),
+                    children: <TextSpan>[
+                      TextSpan(text: '    Interpretar um personagem\n\n', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
+                      TextSpan(text: '    Quando jogar RPG lembre-se de que você age pelo seu personagem. Interpreta-lo é permitir-se entrar no mundo ficticio criado pelo Mestre da mesa e atuar ativamente dentro dele.\n\n'),
+                      TextSpan(text: '    Explore situações fora do seu cotidiano, aprenda a lidar com os desafios! Aja com liberdade, imagine e faça. Você e seu grupo serão os responsáveis pela própria glória.\n\n'),
+                      TextSpan(text: '    Se estiver confortável, lembre-se de falar pelo seu personagem. É possível dizer ao grupo o que irá fazer, mas você pode realmente interpretar e ser a voz e o sotaque do seu próprio personagem!'),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: CompanionAppItem('Continuar', '/newCharacterScreen'),
+                )
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
   }
 }
 
@@ -83,7 +135,7 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
 //        body: SingleChildScrollView(
         body: SingleChildScrollView(
             child: FutureBuilder(
-              future: DefaultAssetBundle.of(context).loadString('assets/questions_list.json'),
+          future: DefaultAssetBundle.of(context).loadString('assets/questions_list.json'),
           builder: (context, snapshot) {
             List<Widget> children;
             if (snapshot.hasData) {
@@ -93,14 +145,13 @@ class _CharacterQuestionsSlider extends State<CharacterQuestionsSlider> {
                   children: <Widget>[
                     CarouselSlider(
                       items: listOfQuestions.questions
-                           .map((question)=>
-                           Container(
-                                child: QuestionWidget(
-                                  questionsList: listOfQuestions.questions,
-                                  question: question,
-                                  controller: _controller,
-                                )))
-                           .toList(),
+                          .map((question) => Container(
+                                  child: QuestionWidget(
+                                questionsList: listOfQuestions.questions,
+                                question: question,
+                                controller: _controller,
+                              )))
+                          .toList(),
                       options: CarouselOptions(
                         enlargeCenterPage: false,
                         height: height,
@@ -158,14 +209,14 @@ class QuestionWidget extends StatefulWidget {
   QuestionWidget({@required this.questionsList, @required this.question, @required this.controller});
 
   @override
-  _QuestionWidgetState createState()=> _QuestionWidgetState();
+  _QuestionWidgetState createState() => _QuestionWidgetState();
 }
 
 class _QuestionWidgetState extends State<QuestionWidget> {
   final CharacterBuilder characterBuilder = new CharacterBuilder();
 
   @override
-  Widget build(BuildContext context){
+  Widget build(BuildContext context) {
     return Column(
       children: <Widget>[
         Container(
@@ -192,29 +243,28 @@ class _QuestionWidgetState extends State<QuestionWidget> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.center,
             children: widget.question.choices
-                 .map((choice)=>
-                 Container(
-                      child: Padding(
-                        padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
-                        child: RaisedButton(
-                          onPressed: (){
-                            if(widget.question.answered == false) {
-                              choice.selected = true;
-                              widget.question.answered = true;
-                              characterBuilder.saveSelectedAnswer(choice);
+                .map((choice) => Container(
+                        child: Padding(
+                      padding: const EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 5.0),
+                      child: RaisedButton(
+                        onPressed: () {
+                          if (widget.question.answered == false) {
+                            choice.selected = true;
+                            widget.question.answered = true;
+                            characterBuilder.saveSelectedAnswer(choice);
 
-                              if(characterBuilder.allQuestionsAreAnswered(widget.questionsList)) {
-                                characterBuilder.calculateCharacterScores();
-                                Navigator.pushNamed(context, '/resultScreen');
-                              } else {
-                                widget.controller.nextPage();
-                              }
+                            if (characterBuilder.allQuestionsAreAnswered(widget.questionsList)) {
+                              characterBuilder.calculateCharacterScores();
+                              Navigator.pushNamed(context, '/resultScreen');
+                            } else {
+                              widget.controller.nextPage();
                             }
-                          },
-                          child: Text(choice.text),
-                        ),
-                      )))
-                 .toList(),
+                          }
+                        },
+                        child: Text(choice.text),
+                      ),
+                    )))
+                .toList(),
           ),
         )
       ],

@@ -1,8 +1,8 @@
 [
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Anão",
+      "Classe": "Bárbaro",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "22",
@@ -24,13 +24,13 @@
       "Pericias": "Ofício 5; Atletismo 5; Cavalgar 5; Adestrar Animais 5; Iniciativa 5; Percepção 7; Intimidação 5",
       "Armas": "Machadinha 1d6+3 Crítico:x3, Tridente 1d8+3 Crítico:x2",
       "Armaduras": "Cota de malha CA+5 Penalidade –3",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Anão",
+      "Classe": "Bárbaro",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "26",
@@ -53,13 +53,13 @@
       "Pericias": "Sobrevivência 6; Percepção 6; Cavalgar 5; Atletismo 7; Adestrar Animais 5; Ofício 4; Iniciativa 5; Intimidação 5",
       "Armas": "Machadinha 1d6+3 Crítico:x3; Machado batalha+3 Crítico:2",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Anão",
+      "Classe": "Bárbaro",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "26",
@@ -82,13 +82,13 @@
       "Pericias": "Cavalgar 5; Iniciativa 5; Sobrevivência 8; Intimidação 6; Percepção 8; Atletismo 6; Ofício 5; Adestrar Animais 6",
       "Armas": "Adaga 1d4+2 Crítico:19-20",
       "Armaduras": "Meia armadura CA+7; Penalidade –4",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Humano",
+      "Classe": "Bárbaro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "26",
@@ -111,13 +111,13 @@
       "Pericias": "Adestrar Animais 5; Sobrevivência 5; Percepção 5; Cavalgar 3; Iniciativa 3; Atletismo 5; Ofício 6; Intimidação 5",
       "Armas": "Azagaia 1d6+1 Crítico:x2; Machadinha 1d6+1 Crítico:x3",
       "Armaduras": "Couraça CA+5, Penalidade –4",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Humano",
+      "Classe": "Bárbaro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Mau",
       "PV": "26",
@@ -140,13 +140,13 @@
       "Pericias": "Ofício 7; Atletismo 8; Cavalgar 6; Iniciativa 6; Adestrar Animais 3; Intimidação 3; Sobrevivência 3; Percepção 3",
       "Armas": "Cimitarra 1d6+4 Crítico:18-20; Lança montada 1d8+4 Crítico:x3",
       "Armaduras": "Loriga segmentada CA+6 Penalidade –5",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Humano",
+      "Classe": "Bárbaro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "26",
@@ -169,13 +169,13 @@
       "Pericias": "Atletismo 6; Intimidação 6; Cavalgar 4; Iniciativa 4; Percepção 4; Ofício 3; Sobrevivência 4; Adestrar Animais 6",
       "Armas": "Adaga 1d4+2 Crítico:19-20; Arco curto 1d6+2 Crítico:x3; Azagaia 1d6+2 Crítico:x2",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Minotauro",
+      "Classe": "Bárbaro",
+      "Raça": "Minotauro",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "25",
@@ -199,13 +199,13 @@
       "Armas": "Besta pesada 1d12+2 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudos": "Escudo leve CA+1, Penalidade –1",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
+      "Características_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Minotauro",
+      "Classe": "Bárbaro",
+      "Raça": "Minotauro",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "26",
@@ -228,13 +228,13 @@
       "Pericias": "Ofício 5; Cavalgar 3; Percepção 5; Intimidação 4; Sobrevivência 5; Atletismo 7; Iniciativa 3; Adestrar Animais 4",
       "Armas": "Foice 2d4+3 Crítico:x4",
       "Armaduras": "Couraça CA+5, Penalidade –4",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
+      "Características_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
     }
   },
   {
     "charData": {
-      "class": "Bárbaro",
-      "race": "Minotauro",
+      "Classe": "Bárbaro",
+      "Raça": "Minotauro",
       "Nome": "",
       "Alinhamento": "Caotico e Bom",
       "PV": "25",
@@ -257,13 +257,13 @@
       "Pericias": "Ofício 3; Intimidação 3; Atletismo 9; Sobrevivência 3; Percepção 3; Adestrar Animais 3; Iniciativa 4; Cavalgar 4",
       "Armas": "Picareta 1d6+5 Crítico:x4; Espada grande 2d6+5 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
+      "Características_Raciais": "Classe de armadura +1; Minotauros possuem um ataque natural de chifres (1d6; crítico x2, perfuração); Faro; Lógica labiríntica; Medo de altura"
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Elfo",
+      "Classe": "Bardo",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "15",
@@ -286,13 +286,13 @@
       "Pericias": "Cavalgar 5; Acrobacia 5; Atuação 5; Iniciativa 5; Identificar Magia 6; Furtividade 5; Enganação 5; Intuição 5; Obter Informação 5; Conhecimento 6; Atletismo 3; Diplomacia 5; Ladinagem 5; Percepção 5",
       "Armas": " Cimitarra 1d6+-1 Crítico:18-20",
       "Armaduras": "Loriga segmentada CA+6 Penalidade –5",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Elfo",
+      "Classe": "Bardo",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "11",
@@ -315,13 +315,13 @@
       "Pericias": "Conhecimento 8; Identificar Magia 8; Enganação 7; Iniciativa 6; Intuição 5; Cavalgar 6; Atletismo 6; Obter Informação 7; Diplomacia 7; Furtividade 6; Ladinagem 6; Acrobacia 6; Percepção 5; Atuação 7",
       "Armas": "Espada longa 1d8+2 Crítico:19-20",
       "Armaduras": "Corselete de couro CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Elfo",
+      "Classe": "Bardo",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "11",
@@ -344,13 +344,13 @@
       "Pericias": "Identificar Magia 9; Percepção 5; Conhecimento 9; Acrobacia 7; Intuição 5; Cavalgar 7; Enganação 6; Atuação 6; Atletismo 3; Iniciativa 7; Diplomacia 6; Obter Informação 6; Furtividade 7; Ladinagem 7",
       "Armas": "Azagaia 1d6+-1 Crítico:x2; Machado grande 1d12+-1 Crítico:x3",
       "Armaduras": "Corselete de couro CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identificar Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas, espadas longas, floretes e arcos (curtos, longos e compostos); Elfos também recebem Foco em Arma para uma destas armas."
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Halfling",
+      "Classe": "Bardo",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "11",
@@ -373,13 +373,13 @@
       "Pericias": "Ladinagem 5; Percepção 3; Acrobacia 5; Identificar Magia 5; Atuação 7; Enganação 7; Cavalgar 5; Obter Informação 7; Conhecimento 5; Atletismo 5; Diplomacia 7; Intuição 3; Iniciativa 5; Furtividade 5",
       "Armas": "Arco curto 1d6+1 Crítico:x3",
       "Armaduras": "Cota de talas CA+6 Penalidade –4",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Halfling",
+      "Classe": "Bardo",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Neutro e Mau",
       "PV": "13",
@@ -402,13 +402,13 @@
       "Pericias": "Acrobacia 8; Diplomacia 6; Atletismo 4; Enganação 6; Conhecimento 6; Ladinagem 8; Cavalgar 8; Furtividade 8; Atuação 6; Identificar Magia 6; Obter Informação 6; Intuição 3; Iniciativa 8; Percepção 3",
       "Armas": "Lança 1d6+0 Crítico:x2; Bordão 1d6/1d6+0 Crítico:x2; Alfange 2d4+0 Crítico:18-20",
       "Armaduras": "Corselete de couro CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Halfling",
+      "Classe": "Bardo",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "13",
@@ -431,13 +431,13 @@
       "Pericias": "Cavalgar 8; Ladinagem 8; Identificar Magia 3; Atletismo 3; Obter Informação 7; Iniciativa 8; Furtividade 8; Percepção 4; Diplomacia 7; Atuação 7; Enganação 7; Acrobacia 8; Intuição 4; Conhecimento 3",
       "Armas": "Espada curta 1d6+-1 Crítico:19-20; Tacape 1d10+-1 Crítico:x2; Besta pesada 1d12+-1 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Humano",
+      "Classe": "Bardo",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Catico e Neutro",
       "PV": "13",
@@ -460,13 +460,13 @@
       "Pericias": "Identificar Magia 3; Obter Informação 6; Percepção 7; Enganação 6; Iniciativa 4; Intuição 7; Ladinagem 4; Diplomacia 6; Acrobacia 4; Furtividade 4; Cavalgar 4; Conhecimento 3; Atuação 6; Atletismo 4",
       "Armas": "Bordão 1d6/1d6+0 Crítico:x2",
       "Armaduras": "Couraça CA+5 Penalidade –4",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Humano",
+      "Classe": "Bardo",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "13",
@@ -489,13 +489,13 @@
       "Pericias": "Atletismo 4; Furtividade 4; Identificar Magia 7; Conhecimento 7; Intuição 5; Acrobacia 4; Diplomacia 5; Percepção 5; Cavalgar 4; Obter Informação 5; Ladinagem 4; Iniciativa 4; Enganação 5; Atuação 5",
       "Armas": "Besta leve 1d8+0 Crítico:19-20, Martelo de guerra 1d8+0 Crítico:x3, Alabarda 1d10+0 Crítico:x3",
       "Armaduras": "Couraça CA+5 Penalidade –4",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Bardo",
-      "race": "Humano",
+      "Classe": "Bardo",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "12",
@@ -518,13 +518,13 @@
       "Pericias": "Enganação 7; Cavalgar 4; Acrobacia 4; Obter Informação 7; Atuação 7; Conhecimento 4; Furtividade 4; Atletismo 6; Intuição 5; Percepção 5; Ladinagem 4; Iniciativa 4; Identificar Magia 4; Diplomacia 7",
       "Armas": "Florete 1d6+2 Crítico:18-20",
       "Armaduras": "Camisa de cota de malha CA+4",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras, +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Meio-Elfo",
+      "Classe": "Clérigo",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "15",
@@ -548,13 +548,13 @@
       "Armas": "Pique 1d8+1 Crítico:x2, Escudo pesado 1d6+1 Crítico:x2, Espada longa 1d8+1 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Meio-Elfo",
+      "Classe": "Clérigo",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "15",
@@ -577,13 +577,13 @@
       "Pericias": "Identificar Magia 4; Ofício 4; Intuição 6; Conhecimento 4; Cura 6; Diplomacia 6",
       "Armas": "Besta pesada 1d12+0 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
     }
   },
   {
     "charData": {
-    "class": "Clérigo",
-    "race": "Meio-Elfo",
+    "Classe": "Clérigo",
+    "Raça": "Meio-Elfo",
     "Nome": "",
     "Alinhamento": "Neutro e Bom",
     "PV": "18",
@@ -607,13 +607,13 @@
     "Armas": "Azagaia 1d6+0 Crítico:x2, Picareta 1d6+0 Crítico:x4",
     "Armaduras": "Couro batido CA+3 Penalidade –1",
     "Escudo": "Escudo leve CA+1 Penalidade –1",
-    "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
+    "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identificar Magia e Percepção."
   }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Humano",
+      "Classe": "Clérigo",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "18",
@@ -637,13 +637,13 @@
       "Armas": "Azagaia 1d6+0 Crítico:x2; Cimitarra 1d6+0 Crítico:18-20; Lança montada 1d8+0 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-    "class": "Clérigo",
-    "race": "Humano",
+    "Classe": "Clérigo",
+    "Raça": "Humano",
     "Nome": "",
     "Alinhamento": "Neutro e Bom",
     "PV": "18",
@@ -667,13 +667,13 @@
     "Armas": "Azagaia 1d6+0 Crítico:x2, Picareta 1d6+0 Crítico:x4",
     "Armaduras": "Couro batido CA+3 Penalidade –1",
     "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
   }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Humano",
+      "Classe": "Clérigo",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "18",
@@ -697,13 +697,13 @@
       "Armas": "Machadinha 1d6+-1 Crítico:x3; Tridente 1d8+-1 Crítico:x2",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Anão",
+      "Classe": "Clérigo",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "18",
@@ -727,13 +727,13 @@
       "Armas": "Maça 1d8+1 Crítico:x2",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Anão",
+      "Classe": "Clérigo",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "22",
@@ -757,13 +757,13 @@
       "Armas": "Clava 1d6+1 Crítico:x2; Arco curto 1d6+1 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Clérigo",
-      "race": "Anão",
+      "Classe": "Clérigo",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "18",
@@ -787,13 +787,13 @@
       "Armas": "Martelo de guerra 1d8+1 Crítico:x3; Tridente 1d8+1 Crítico:x2; Arco composto 1d6+1 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Centauro",
+      "Classe": "Druida",
+      "Raça": "Centauro",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "18",
@@ -817,13 +817,13 @@
       "Armas": "",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
+      "Características_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Centauro",
+      "Classe": "Druida",
+      "Raça": "Centauro",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "18",
@@ -846,13 +846,13 @@
       "Pericias": "Identificar Magia 4; Cavalgar 4; Adestrar Animais 6; Conhecimento 4; Sobrevivência 5; Cura 5; Percepção 5; Atletismo 5; Diplomacia 6; Ofício 4",
       "Armas": "Maça 1d8+1 Crítico:x2; Tacape 1d10+1 Crítico:x2\n",
       "Armaduras": "Cota de malha CA+5 Penalidade –3",
-      "Caracteísticas_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
+      "Características_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Centauro",
+      "Classe": "Druida",
+      "Raça": "Centauro",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "17",
@@ -876,13 +876,13 @@
       "Armas": "Espada curta 1d6+1 Crítico:19-20; Bordão 1d6/1d6+1 Crítico:x2; Tacape 1d10+1 Crítico:x2",
       "Armaduras": "Camisa de cota de malha +3 Penalidade +4",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
+      "Características_Raciais": "Tamanho Grande; Deslocamento 12m; Cascos; +4 em testes de Sobrevivência e Medo de Altura."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Elfo",
+      "Classe": "Druida",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "18",
@@ -905,13 +905,13 @@
       "Pericias": "Sobrevivência 6; Ofício 6; Cavalgar 6; Diplomacia 6; Percepção 6; Adestrar Animais 6; Conhecimento 6; Cura 6; Atletismo 4; Identificar Magia 6",
       "Armas": "Adaga 1d4+0 Crítico:19-20",
       "Armaduras": "Camisa de cota de malha +3 Penalidade +4",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Elfo",
+      "Classe": "Druida",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "15",
@@ -934,13 +934,13 @@
       "Pericias": "Atletismo 3; Percepção 7; Diplomacia 5; Sobrevivência 7; Cura 7; Conhecimento 6; Cavalgar 7; Identificar Magia 6; Adestrar Animais 5; Ofício 6",
       "Armas": "Arco longo 1d8-1 Crítico:x3",
       "Armaduras": "Corselete de couro +2",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Elfo",
+      "Classe": "Druida",
+      "Raça": "Elfo",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "16",
@@ -963,13 +963,13 @@
       "Pericias": "Identificar Magia 4; Sobrevivência 4; Cavalgar 7; Conhecimento 4; Percepção 4; Adestrar Animais 6; Cura 4; Atletismo 6; Diplomacia 6; Ofício 4",
       "Armas": "Cimitarra 1d6+2 Crítico:18-20",
       "Armaduras": "Camisa de cota de malha +3 Penalidade +4",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
+      "Características_Raciais": "Visão na Penumbra; +4 em testes de Vontade contra encantamentos; +4 em testes de Identifi car Magia e Percepção; A dificuldade do teste de resistência contra magias arcanas lançadas por um elfo aumenta em CD +2; Elfos sabem usar espadas curtas; espadas longas; floretes e arcos (curtos; longos e compostos). Elfos também recebem Foco em Arma para uma destas."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Humano",
+      "Classe": "Druida",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "16",
@@ -992,13 +992,13 @@
       "Pericias": "Atletismo 7; Cura 7; Conhecimento 4; Diplomacia 5; Adestrar Animais 5; Sobrevivência 7; Identificar Magia 4; Ofício 4; Cavalgar 6; Percepção 7",
       "Armas": "Foice 2d4+3 Crítico:x4; Besta pesada 1d12+3 Crítico:19-20",
       "Armaduras": "Camisa de cota de malha +3 Penalidade +4",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Humano",
+      "Classe": "Druida",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caotico e Neutro",
       "PV": "16",
@@ -1021,13 +1021,13 @@
       "Pericias": "Ofício 5; Identificar Magia 5; Cura 5; Conhecimento 5; Atletismo 5; Diplomacia 7; Adestrar Animais 7; Cavalgar 5; Sobrevivência 5; Percepção 5",
       "Armas": "Foice 2d4+3 Crítico:x4; Arco curto 1d6+1 Crítico:x3",
       "Armaduras": "Gibão de peles +3CA Penalidade -2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Druida",
-      "race": "Humano",
+      "Classe": "Druida",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "17",
@@ -1050,13 +1050,13 @@
       "Pericias": "Adestrar Animais 6; Cura 5; Percepção 5; Diplomacia 6; Atletismo 3; Cavalgar 5; Identificar Magia 6; Conhecimento 6; Sobrevivência 5; Ofício 6",
       "Armas": "Besta leve 1d8-1 Crítico:19-20; Foice 2d4-1 Crítico:x4;",
       "Armaduras": "Couro batido +3 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Humano",
+      "Classe": "Feiticeiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "9",
@@ -1079,13 +1079,13 @@
       "Pericias": "Intimidação 5; Ofício 7; Enganação 5; Identificar Magia 7; Conhecimento 7",
       "Armas": "Alfange 2d4+0 Crítico:18-20",
       "Armaduras": "",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Humano",
+      "Classe": "Feiticeiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "8",
@@ -1109,13 +1109,13 @@
       "Armas": "Mangual 1d8+0 Crítico:x2",
       "Armaduras": "Gibão de peles CA+3 Penalidade –2",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Humano",
+      "Classe": "Feiticeiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "8",
@@ -1139,13 +1139,13 @@
       "Armas": "Mangual 1d8+0 Crítico:x2",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Goblin",
+      "Classe": "Feiticeiro",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "8",
@@ -1169,13 +1169,13 @@
       "Armas": "Maça 1d8+2 Crítico:x2",
       "Armaduras": "Gibão de peles CA+3 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Goblin",
+      "Classe": "Feiticeiro",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Neutro e Mau",
       "PV": "9",
@@ -1199,13 +1199,13 @@
       "Armas": "Clava 1d6+0 Crítico:x2",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Goblin",
+      "Classe": "Feiticeiro",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Caotico e Neutro",
       "PV": "10",
@@ -1229,13 +1229,13 @@
       "Armas": "Tacape 1d10-1 Crítico:x2",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Halfling",
+      "Classe": "Feiticeiro",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "9",
@@ -1259,13 +1259,13 @@
       "Armas": "Bordão 1d6/1d6-1 Crítico:x2; Mangual 1d8-1 Crítico:x2",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Halfling",
+      "Classe": "Feiticeiro",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "7",
@@ -1289,13 +1289,13 @@
       "Armas": "Espada curta 1d6+-1 Crítico:19-20; Besta leve 1d8+-1 Crítico:19-20\n",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Feiticeiro",
-      "race": "Halfling",
+      "Classe": "Feiticeiro",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caotico e Neutro",
       "PV": "7",
@@ -1319,13 +1319,13 @@
       "Armas": "Maça 1d8+-1 Crítico:x2; Machadinha 1d6+-1 Crítico:x3",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; para halflings a perícia Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Humano",
+      "Classe": "Guerreiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "22",
@@ -1349,13 +1349,13 @@
       "Armas": "Espada Bastarda 1d10 Crítico:19-20; Besta leve 1d8+1 Crítico:19-20; Alfange 2d4+1 Crítico:18-20",
       "Armaduras": "Brunea CA+4 Penalidade -3",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Humano",
+      "Classe": "Guerreiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro",
       "PV": "21",
@@ -1379,13 +1379,13 @@
       "Armas": "Chicote 1d3+1 Crítico:x2; Pique 1d8+1 Crítico:x2; Picareta 1d6+1 Crítico:x4\n",
       "Armaduras": "Meia armadura CA+7 Penalidade –4",
       "Escudo": "Escudo pesado CA+2 Penalidade –2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Humano",
+      "Classe": "Guerreiro",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Mau",
       "PV": "19",
@@ -1409,13 +1409,13 @@
       "Armas": "Machadinha 1d6+3 Crítico:x3",
       "Armaduras": "Brunea CA+4 Penalidade -3",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Orc",
+      "Classe": "Guerreiro",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "21",
@@ -1439,13 +1439,13 @@
       "Armas": "Besta leve 1d8+4 Crítico:19-20, Alabarda 1d10+4 Crítico:x3",
       "Armaduras": "Gibão de Peles CA+3 Penalidade -2",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Orc",
+      "Classe": "Guerreiro",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "20",
@@ -1469,13 +1469,13 @@
       "Armas": "Clava 1d6+5 Crítico:x2",
       "Armaduras": "Gibão de Peles CA+3 Penalidade -2",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Orc",
+      "Classe": "Guerreiro",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "21",
@@ -1498,13 +1498,13 @@
       "Pericias": "Adestrar Animais 3; Ofício 4; Iniciativa 3; Intimidação 3; Atletismo 7; Percepção 5; Cavalgar 3",
       "Armas": "Besta leve 1d8+4 Crítico:19-20, Alabarda 1d10+4 Crítico:x3",
       "Armaduras": "Armadura completa CA+8 Penalidade –5",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Meio-Elfo",
+      "Classe": "Guerreiro",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "22",
@@ -1528,13 +1528,13 @@
       "Armas": "Marreta estilhaçadora 1d12+5 Crítico:19-20/especial; Besta pesada 1d12+5 Crítico:19-20",
       "Armaduras": "Cota de talas CA+6 Penalidade –4",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Meio-Elfo",
+      "Classe": "Guerreiro",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "21",
@@ -1558,13 +1558,13 @@
       "Armas": "Adaga 1d4+0 Crítico:19-20; Florete 1d6+0 Crítico:18-20; Arco Longo 1d8 Crítico:x3",
       "Armaduras": "Gibão de peles CA+3 Penalidade –2",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Guerreiro",
-      "race": "Meio-Elfo",
+      "Classe": "Guerreiro",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "20",
@@ -1588,13 +1588,13 @@
       "Armas": "Lança 1d6+2 Crítico:x2",
       "Armaduras": "Gibão de peles CA+3 Penalidade –4",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Halfling",
+      "Classe": "Ladino",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "14",
@@ -1618,13 +1618,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
+      "Características_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Halfling",
+      "Classe": "Ladino",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caotico e Neutro",
       "PV": "12",
@@ -1648,13 +1648,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20, Sabre serrilhado 1d8+-1 Crítico:19-20/especial",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
+      "Características_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Halfling",
+      "Classe": "Ladino",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "12",
@@ -1678,13 +1678,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20, Cimitarra 1d6 Crítico 19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
+      "Características_Raciais": "Tamanho Pequeno, +2 em todos os testes de resistência, +1 em jogadas de ataque com armas de arremesso e fundas, para halflings a perícia Atletismo é baseada em Destreza, +4 em testes de Enganação."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Humano",
+      "Classe": "Ladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "14",
@@ -1708,13 +1708,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20; Arco longo 1d8+1 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Humano",
+      "Classe": "Ladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "13",
@@ -1738,13 +1738,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20; Arco longo 1d8+1 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Humano",
+      "Classe": "Ladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "14",
@@ -1768,13 +1768,13 @@
       "Armas": "Adaga 1d4+1 Crítico:19-20; Arco longo 1d8+1 Crítico:x3",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
       "Escudo": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Gnomo",
+      "Classe": "Ladino",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "12",
@@ -1797,13 +1797,13 @@
       "Pericias": "Percepção 4; Ladinagem 6; Acrobacia 6; Atletismo 3; Ofício 5; Iniciativa 6; Enganação 7; Diplomacia 7; Conhecimento 5; Cavalgar 6; Intimidação 7; Intuição 4; Atuação 7; Furtividade 6; Obter Informação 7",
       "Armas": "Adaga 1d4+1 Crítico:19-20",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Gnomo",
+      "Classe": "Ladino",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "15",
@@ -1826,13 +1826,13 @@
       "Pericias": "Ladinagem 6; Iniciativa 6; Obter Informação 5; Acrobacia 6; Enganação 5; Atuação 5; Intuição 6; Conhecimento 5; Ofício 5; Intimidação 5; Diplomacia 5; Percepção 6; Atletismo 3; Furtividade 6; Cavalgar 6",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Corrente com cravos 2d4-1 Crítico:x2",
       "Armaduras": "Couro batido CA+3 Penalidade –1",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
     }
   },
   {
     "charData": {
-      "class": "Ladino",
-      "race": "Gnomo",
+      "Classe": "Ladino",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "12",
@@ -1855,13 +1855,13 @@
       "Pericias": "Furtividade 6; Obter Informação 7; Acrobacia 6; Atuação 7; Conhecimento 5; Ofício 5; Diplomacia 7; Intuição 3; Iniciativa 6; Atletismo 7; Enganação 7; Cavalgar 6; Intimidação 7; Ladinagem 6; Percepção 3",
       "Armas": "Adaga 1d4+1 Crítico:19-20, Mangual 1d8+3 Crítico:x2",
       "Armaduras": "Brunea  CA+4 Penalidade –3",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma."
     }
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Gnomo",
+      "Classe": "Mago",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "11",
@@ -1884,7 +1884,7 @@
       "Pericias": "Identificar Magia 6; Percepção 3; Ofício 6; Conhecimento 6",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
       "Magias": "Hab chave: int PM: 3",
       "Círculo_0": "Intuir direção: +4 em Sobrevivência para se localizar; Globos de luz: cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha; Toque da fadiga: alvo fica fatigado; Flor perene: flor nasce na cabeça do alvo; Marca arcana: inscreve sua runa pessoal sobre um objeto;",
       "Círculo_1": "Hipnotismo: deixa alvos imóveis e melhora a atitude deles em relação a você; Ventriloquismo: projeta sua voz de outro lugar; Invocar monstro I: invoca um monstro Pequeno sob seu comando; Animar corda: anima uma corda, que pode se enrolar, fazer um laço ou dar um nó; Aumentar pessoa: um humanoide aumenta uma categoria de tamanho;"
@@ -1892,8 +1892,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Gnomo",
+      "Classe": "Mago",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "10",
@@ -1916,7 +1916,7 @@
       "Pericias": "Conhecimento 6; Ofício 6; Identificar Magia 6; Percepção 5",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
       "Magias": "Hab chave: int PM: 3",
       "Círculo_0": "Resistência: fornece +1 nos testes de resistência; Intuir direção: +4 em Sobrevivência para se localizar; Raio de frio: causa 1d3 pontos de dano, e impõe –1 nos ataques na rodada seguinte; Consertar: repara pequenas falhas em objetos mundanos; Marca arcana: inscreve sua runa pessoal sobre um objeto;",
       "Círculo_1": "Hipnotismo: deixa alvos imóveis e melhora a atitude deles em relação a você; Aura mágica: faz um objeto mundano parecer mágico ou vice-versa; Disfarce ilusório: você recebe +10 em testes de Enganação para disfarce; Montaria arcana: invoca um cavalo ou pônei para servir como montaria (mas não para lutar); Queda suave: alvo cai lentamente;"
@@ -1924,8 +1924,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Gnomo",
+      "Classe": "Mago",
+      "Raça": "Gnomo",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "9",
@@ -1948,7 +1948,7 @@
       "Pericias": "Identificar Magia 5; Conhecimento 5; Percepção 6; Ofício 5",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
+      "Características_Raciais": "Gnomos ganham +1 na classe de armadura; +1 nas jogadas de ataque e +4 em testes de Furtividade; mas precisam usar armas menores; Visão na Penumbra; +4 em testes de Intuição e Ofício (alquimia); Classe de armadura +4 contra adversários de tamanho Grande ou maior; Gnomos podem se comunicar com animais livremente; como a magia falar com animais; Gnomos com Carisma 10 ou mais podem lançar as seguintes magias livremente: globos de luz; prestidigitação e som fantasma.",
       "Magias": "Hab chave: int PM: 2",
       "Círculo_0": "Globos de luz: cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha; Romper morto-vivo: causa 1d6 pontos de dano em um morto-vivo; Toque da fadiga: alvo fica fatigado; Consertar: repara pequenas falhas em objetos mundanos; Mensagem: troque mensagens telepáticas com um alvo;",
       "Círculo_1": "Escudo arcano: você recebe +4 na CA e se torna imune a mísseis mágicos; Detectar portas secretas: detecta portas e salas escondidas; Identificação: determina habilidades de um item mágico; Invocar monstro I: invoca um monstro Pequeno sob seu comando;"
@@ -1956,8 +1956,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Humano",
+      "Classe": "Mago",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "9",
@@ -1980,7 +1980,7 @@
       "Pericias": "Ofício 5; Conhecimento 5; Percepção 3; Identificar Magia 5",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
       "Magias": "Hab chave: int PM: 4",
       "Círculo_0": "Raio de ácido: causa 1d3 pontos de dano, mais 1 na rodada seguinte; Raio de frio: causa 1d3 pontos de dano, e impõe –1 nos ataques na rodada seguinte; Som fantasma: cria som ilusório; Globos de luz: cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha; Mãos mágicas: move um objeto à distância;",
       "Círculo_1": "Detectar mortos-vivos: detecta a presença, quantidade e poder de mortos-vivos na área; Sono: criaturas na área totalizando 2d4 níveis adormecem; Disfarce ilusório: você recebe +10 em testes de Enganação para disfarce; Raio do enfraquecimento: impõe –2 nas jogadas de ataque e dano; Animar corda: anima uma corda, que pode se enrolar; fazer um laço ou dar um nó."
@@ -1988,8 +1988,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Humano",
+      "Classe": "Mago",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "8",
@@ -2012,7 +2012,7 @@
       "Pericias": "Ofício 6; Percepção 6; Conhecimento 6; Identificar Magia 6",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
       "Magias": "Hab chave: int PM: 4",
       "Círculo_0": "Intuir direção: +4 em Sobrevivência para se localizar; Raio de fogo: causa 1d4 pontos de dano; Som fantasma: cria som ilusório; Toque da fadiga: alvo fica fatigado; Mensagem: troque mensagens telepáticas com um alvo.",
       "Círculo_1": "Detectar mortos-vivos: detecta a presença, quantidade e poder de mortos-vivos na área; Sono: criaturas na área totalizando 2d4 níveis adormecem; Disfarce ilusório: você recebe +10 em testes de Enganação para disfarce; Raio do enfraquecimento: impõe –2 nas jogadas de ataque e dano; Animar corda: anima uma corda, que pode se enrolar; fazer um laço ou dar um nó."
@@ -2020,8 +2020,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Humano",
+      "Classe": "Mago",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "10",
@@ -2044,7 +2044,7 @@
       "Pericias": "Percepção 4; Conhecimento 7; Ofício 7; Identificar Magia 7",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador.",
       "Magias": "Hab chave: int PM: 4",
       "Círculo_0": "Raio de ácido: causa 1d3 pontos de dano, mais 1 na rodada seguinte; Raio de frio: causa 1d3 pontos de dano, e impõe –1 nos ataques na rodada seguinte; Som fantasma: cria som ilusório; Globos de luz: cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha; Mãos mágicas: move um objeto à distância;",
       "Círculo_1": "Detectar mortos-vivos: detecta a presença, quantidade e poder de mortos-vivos na área; Sono: criaturas na área totalizando 2d4 níveis adormecem; Disfarce ilusório: você recebe +10 em testes de Enganação para disfarce; Raio do enfraquecimento: impõe –2 nas jogadas de ataque e dano; Animar corda: anima uma corda, que pode se enrolar; fazer um laço ou dar um nó."
@@ -2052,8 +2052,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Meio-Elfo",
+      "Classe": "Mago",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "7",
@@ -2076,7 +2076,7 @@
       "Pericias": "Ofício 7; Atletismo 6; Percepção 3; Adestrar Animais 4; Intimidação 4; Cavalgar 6; Iniciativa 6",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
       "Magias": "Hab chave: int PM: 3",
       "Círculo_0": "Intuir direção: +4 em Sobrevivência para se localizar; Raio de frio: causa 1d3 pontos de dano, e impõe –1 nos ataques na rodada seguinte; Som fantasma: cria som ilusório; Abrir/fechar: abre ou fecha um objeto pequeno; Marca arcana: inscreve sua runa pessoal sobre um objeto;",
       "Círculo_1": "Área escorregadia: criaturas na área podem cair no chão; Mãos flamejantes: cone causa 2d6 pontos de dano; Aura mágica: faz um objeto mundano parecer mágico ou vice-versa; Imagem silenciosa: cria uma ilusão visual, como uma miragem; Servo invisível: criatura invisível realiza tarefas para você;"
@@ -2084,8 +2084,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Meio-Elfo",
+      "Classe": "Mago",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "9",
@@ -2108,7 +2108,7 @@
       "Pericias": "Conhecimento 7; Ofício 7; Percepção 4; Identificar Magia 7",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
       "Magias": "Hab chave: int PM: 4",
       "Círculo_0": "Raio de ácido: causa 1d3 pontos de dano, mais 1 na rodada seguinte; Ler magias: decifre inscrições mágicas; Brilho: alvo fica ofuscado (–1 nos ataques); Abrir/fechar: abre ou fecha um objeto pequeno; Prestidigitação: gera diversos efeitos menores;",
       "Círculo_1": "Gagueira de Raviollius: alvo não consegue falar corretamente, sofrendo –4 de testes baseados em Carisma; Imagem silenciosa: cria uma ilusão visual, como uma miragem; Leque cromático: criaturas na área fi cam inconscientes, atordoadas ou cegas, de acordo com seu nível; Servo invisível: criatura invisível realiza tarefas para você; Raio do enfraquecimento: impõe –2 nas jogadas de ataque e dano; Aumentar pessoa: um humanoide aumenta uma categoria de tamanho;"
@@ -2116,8 +2116,8 @@
   },
   {
     "charData": {
-      "class": "Mago",
-      "race": "Meio-Elfo",
+      "Classe": "Mago",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "9",
@@ -2140,7 +2140,7 @@
       "Pericias": "Ofício 7; Atletismo 6; Percepção 3; Adestrar Animais 4; Intimidação 4; Cavalgar 6; Iniciativa 6",
       "Armas": "Adaga 1d4+1 Crítico:19-20; Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção.",
       "Magias": "Hab chave: int PM: 3",
       "Círculo_0": "Globos de luz: cria quatro esferas de luz; cada uma ilumina tanto quanto uma tocha; Luz: objeto brilha como tocha; Romper morto-vivo: causa 1d6 pontos de dano em um morto-vivo; Abrir/fechar: abre ou fecha um objeto pequeno; Prestidigitação: gera diversos efeitos menores;",
       "Círculo_1": "Hipnotismo: deixa alvos imóveis e melhora a atitude deles em relação a você; Mísseis mágicos: dispara duas esferas de energia que causa, cada uma, 1d4+1 pontos de dano; Leque cromático: criaturas na área fi cam inconscientes, atordoadas ou cegas, de acordo com seu nível; Causar medo: criatura de até 4º nível fi ca apavorada; Salto: alvo recebe +30 nos testes de Atletismo para saltar;"
@@ -2148,8 +2148,8 @@
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Meio-Elfo",
+      "Classe": "Monge",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "17",
@@ -2172,13 +2172,13 @@
       "Pericias": "Intuição 6; Diplomacia 4; Furtividade 6; Percepção 6; Atletismo 5; Acrobacia 6; Ofício 4; Iniciativa 6; Conhecimento 4; Cura 6",
       "Armas": "Sai 1d6 Crítico:19-20;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Meio-Elfo",
+      "Classe": "Monge",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "18",
@@ -2201,13 +2201,13 @@
       "Pericias": "Intuição 5; Cura 5; Furtividade 5; Conhecimento 4; Percepção 5; Diplomacia 4; Acrobacia 5; Ofício 4; Atletismo 4; Iniciativa 5",
       "Armas": "Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Meio-Elfo",
+      "Classe": "Monge",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e neutro",
       "PV": "17",
@@ -2230,13 +2230,13 @@
       "Pericias": "Acrobacia 5; Conhecimento 3; Ofício 3; Cura 5; Diplomacia 5; Furtividade 5; Intuição 5; Atletismo 5; Percepção 5; Iniciativa 5",
       "Armas": "Nunchaku 1d6 Crítico:x3;",
       "Armaduras": "Corselete de couro CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Humano",
+      "Classe": "Monge",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "16",
@@ -2259,13 +2259,13 @@
       "Pericias": "Conhecimento 4; Cura 6; Ofício 4; Iniciativa 4; Diplomacia 7; Furtividade 4; Acrobacia 4; Intuição 6; Atletismo 6; Percepção 6",
       "Armas": "Nunchaku 1d6 Crítico:x3;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Humano",
+      "Classe": "Monge",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "16",
@@ -2288,13 +2288,13 @@
       "Pericias": "Intuição 6; Diplomacia 5; Furtividade 5; Conhecimento 3; Percepção 6; Ofício 3; Iniciativa 5; Atletismo 6; Acrobacia 5; Cura 6",
       "Armas": "Sai 1d6 Crítico:19-20;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Humano",
+      "Classe": "Monge",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "16",
@@ -2317,13 +2317,13 @@
       "Pericias": "Cura 6; Ofício 3; Conhecimento 3; Intuição 6; Iniciativa 4; Diplomacia 5; Atletismo 5; Furtividade 4; Percepção 6; Acrobacia 4",
       "Armas": "Bordão 1d6/1d6 Crítico:x2",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Orc",
+      "Classe": "Monge",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "16",
@@ -2346,13 +2346,13 @@
       "Pericias": "Cura 6; Iniciativa 6; Diplomacia 3; Atletismo 7; Intuição 6; Percepção 6; Ofício 3; Furtividade 6; Acrobacia 6; Conhecimento 3",
       "Armas": "Sai 1d6 Crítico:19-20;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Orc",
+      "Classe": "Monge",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "17",
@@ -2375,13 +2375,13 @@
       "Pericias": "Acrobacia 5; Cura 6; Atletismo 5; Diplomacia 5; Intuição 6; Ofício 1; Percepção 6; Conhecimento 1; Iniciativa 5; Furtividade 5",
       "Armas": "Nunchaku 1d6 Crítico:x3;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Monge",
-      "race": "Orc",
+      "Classe": "Monge",
+      "Raça": "Orc",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "16",
@@ -2404,13 +2404,13 @@
       "Pericias": "Diplomacia 6; Atletismo 5; Acrobacia 6; Cura 6; Furtividade 6; Intuição 6; Iniciativa 6; Ofício 2; Conhecimento 2; Percepção 6",
       "Armas": "Sai 1d6 Crítico:19-20;",
       "Armaduras": "Corselete de couro  CA+2 Penalidade 0",
-      "Caracteísticas_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
+      "Características_Raciais": "Visão no Escuro; Brutalidade; +4 em testes de Intimidação; +4 em testes de Ofício (minerador) e Sensibilidade à Luz."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Humano",
+      "Classe": "Paladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "19",
@@ -2434,13 +2434,13 @@
       "Armas": "Espada Longa 1d8+1 Crítico:19-20;",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Humano",
+      "Classe": "Paladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "21",
@@ -2464,13 +2464,13 @@
       "Armas": "Mangual 1d8 Crítico:x2",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Humano",
+      "Classe": "Paladino",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "19",
@@ -2494,13 +2494,13 @@
       "Armas": "Maça-Estrela 2d4 Crítico:x2;",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Anão",
+      "Classe": "Paladino",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "23",
@@ -2524,13 +2524,13 @@
       "Armas": "Maça-Estrela 2d4 Crítico:x2;",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Anão",
+      "Classe": "Paladino",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "22",
@@ -2553,13 +2553,13 @@
       "Armas": "Mangual 1d8 Crítico:x2",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Anão",
+      "Classe": "Paladino",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "22",
@@ -2582,13 +2582,13 @@
       "Armas": "Maça-Estrela 2d4 Crítico:x2;",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Goblin",
+      "Classe": "Paladino",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "22",
@@ -2612,13 +2612,13 @@
       "Armas": "Espada Longa 1d8+1 Crítico:19-20",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Goblin",
+      "Classe": "Paladino",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "20",
@@ -2642,13 +2642,13 @@
       "Armas": "Espada Longa 1d8+1 Crítico:19-20;",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Paladino",
-      "race": "Goblin",
+      "Classe": "Paladino",
+      "Raça": "Goblin",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "20",
@@ -2672,13 +2672,13 @@
       "Armas": "Mangual 1d8 Crítico:x2",
       "Armaduras": "Cota de malha CA+5 Penalidade -3",
       "Escudo": "Escudo Leve CA+1 Penalidade -1",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
+      "Características_Raciais": "Tamanho Pequeno; Deslocamento 9m; Visão no Escuro; +4 em testes de Fortitude contra doenças e venenos.; +4 em testes de Ladinagem e Oficio"
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Humano",
+      "Classe": "Ranger",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "19",
@@ -2701,13 +2701,13 @@
       "Pericias": "Sobrevivência 5; Cavalgar 5; Conhecimento 3; Ofício 3; Iniciativa 5; Percepção 5; Cura 5; Atletismo 6; Furtividade 5; Adestrar Animais 7",
       "Armas": "Espada Curta 1d6+1 Crítico:19-20; Arco longo; 1d8 Crítico: x3",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Humano",
+      "Classe": "Ranger",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "16",
@@ -2730,13 +2730,13 @@
       "Pericias": "Iniciativa 8; Percepção 4; Sobrevivência 4; Cavalgar 8; Atletismo 4; Ofício 4; Cura 4; Conhecimento 4; Adestrar Animais 6; Furtividade 8",
       "Armas": "Maça 1d8 Crítico:x2, Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Humano",
+      "Classe": "Ranger",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "18",
@@ -2759,13 +2759,13 @@
       "Pericias": "Ofício 4; Atletismo 4; Adestrar Animais 6; Conhecimento 4; Percepção 7; Iniciativa 3; Cavalgar 3; Cura 7; Sobrevivência 7; Furtividade 3",
       "Armas": "Espada Curta 1d6+1 Crítico:19-20; Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Meio-Elfo",
+      "Classe": "Ranger",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Leal e Bom",
       "PV": "15",
@@ -2788,13 +2788,13 @@
       "Pericias": "Sobrevivência 5; Iniciativa 4; Cura 5; Percepção 5; Conhecimento 6; Atletismo 6; Adestrar Animais 6; Cavalgar 4; Furtividade 4; Ofício 6",
       "Armas": "Maça 1d8 Crítico:x2, Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Meio-Elfo",
+      "Classe": "Ranger",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "17",
@@ -2817,13 +2817,13 @@
       "Pericias": "Ofício 3; Iniciativa 6; Adestrar Animais 5; Furtividade 6; Cavalgar 6; Conhecimento 3; Atletismo 7; Sobrevivência 3; Cura 3; Percepção 3",
       "Armas": "Espada Curta 1d6+1 Crítico:19-20; Arco composto 1d6 Crítico: x3",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Meio-Elfo",
+      "Classe": "Ranger",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "15",
@@ -2846,13 +2846,13 @@
       "Pericias": "Ofício 4; Cura 5; Iniciativa 6; Conhecimento 4; Cavalgar 6; Percepção 5; Atletismo 4; Adestrar Animais 6; Furtividade 6; Sobrevivência 5",
       "Armas": "Espada Curta 1d6+1; Arco longo; 1d8 Crítico: x3",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Anão",
+      "Classe": "Ranger",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "19",
@@ -2875,13 +2875,13 @@
       "Pericias": "Conhecimento 5; Cura 5; Percepção 5; Furtividade 4; Iniciativa 4; Atletismo 5; Adestrar Animais 6; Sobrevivência 5; Cavalgar 4; Ofício 5",
       "Armas": "Maça 1d8 Crítico:x2; Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Anão",
+      "Classe": "Ranger",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "17",
@@ -2904,13 +2904,13 @@
       "Pericias": "Iniciativa 4, Adestrar Animais 6, Sobrevivência 8, Percepção 8, Furtividade 4, Cura 8, Cavalgar 4, Atletismo 7, Conhecimento 3, Ofício 3",
       "Armas": "Espada Curta 1d6+1 Crítico:19-20; Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Ranger",
-      "race": "Anão",
+      "Classe": "Ranger",
+      "Raça": "Anão",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "17",
@@ -2933,13 +2933,13 @@
       "Pericias": "Furtividade 6; Ofício 6; Iniciativa 6; Sobrevivência 6; Cavalgar 6; Atletismo 3; Cura 6; Conhecimento 6; Percepção 6; Adestrar Animais 3",
       "Armas": "Maça 1d8 Crítico:x2; Arco composto 1d6 Crítico: x3;",
       "Armaduras": "Couro batido CA+3 Penalidade -1",
-      "Caracteísticas_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
+      "Características_Raciais": "Deslocamento 6m; Visão no Escuro; +4 em testes de resistência contra venenos e magia; Machados e Martelos são armas simples; Classe de armadura +4 contra adversários de tamanho Grande ou maior; +2 em testes de perícias para assuntos relacionados a pedra e metal."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Humano",
+      "Classe": "Samurai",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "20",
@@ -2962,13 +2962,13 @@
       "Pericias": "Adestrar Animais 3; Acrobacia 4; Intuição 6; Percepção 6; Ofício 3; Atletismo 7; Cavalgar 4; Atuação 3; Intimidação 3; Conhecimento 3; Iniciativa 4; Diplomacia 3",
       "Armas": "Katana+1 1d10+1 Crítico:19-20; Wakizashi 1d8 Crítico:19-20",
       "Armaduras": "Cota de malha  CA+5 Penalidade -3",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Humano",
+      "Classe": "Samurai",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "22",
@@ -2991,13 +2991,13 @@
       "Pericias": "Acrobacia 5; Iniciativa 5; Atuação 4; Adestrar Animais 4; Intimidação 4; Cavalgar 5; Conhecimento 5; Intuição 4; Percepção 4; Diplomacia 4; Atletismo 5; Ofício 5",
       "Armas": "Katana 1d10 Crítico:19-20; Wakizashi+1 1d8+1 Crítico:19-20",
       "Armaduras": "Brunea  CA+4 Penalidade -3",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Humano",
+      "Classe": "Samurai",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "20",
@@ -3020,13 +3020,13 @@
       "Pericias": "Atletismo 4; Atuação 5; Percepção 5; Acrobacia 8; Iniciativa 8; Cavalgar 8; Intuição 5; Intimidação 5; Diplomacia 5; Adestrar Animais 5; Ofício 6; Conhecimento 6",
       "Armas": "Katana 1d10 Crítico:19-20; Wakizashi+1 1d8+1 Crítico:19-20",
       "Armaduras": "Gibão de peles  CA+3 Penalidade -2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Meio-Elfo",
+      "Classe": "Samurai",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "22",
@@ -3049,13 +3049,13 @@
       "Pericias": "Conhecimento 3; Diplomacia 5; Intimidação 5; Intuição 4; Iniciativa 8; Acrobacia 8; Percepção 4; Adestrar Animais 5; Atletismo 4; Atuação 5; Cavalgar 8; Ofício 3",
       "Armas": "Katana+1 1d10+1 Crítico:19-20; Wakizashi 1d8 Crítico:19-20",
       "Armaduras": "Gibão de peles  CA+3 Penalidade -2; Brunea  CA+4 Penalidade -3; Cota de malha  CA+5 Penalidade -3",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Meio-Elfo",
+      "Classe": "Samurai",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "22",
@@ -3078,13 +3078,13 @@
       "Pericias": "Percepção 3; Diplomacia 4; Intuição 3; Atuação 4; Conhecimento 6; Intimidação 4; Acrobacia 7; Adestrar Animais 4; Iniciativa 7; Ofício 6; Atletismo 5; Cavalgar 7",
       "Armas": "Katana+1 1d10+1 Crítico:19-20; Wakizashi 1d8 Crítico:19-20",
       "Armaduras": "Brunea  CA+4 Penalidade -3",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Meio-Elfo",
+      "Classe": "Samurai",
+      "Raça": "Meio-Elfo",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "20",
@@ -3107,13 +3107,13 @@
       "Pericias": "Adestrar Animais 4; Acrobacia 7; Intuição 4; Atuação 4; Intimidação 4; Diplomacia 4; Atletismo 6; Percepção 4; Iniciativa 7; Cavalgar 7; Conhecimento 6; Ofício 6",
       "Armas": "Katana+1 1d10+1 Crítico:19-20; Wakizashi 1d8 Crítico:19-20",
       "Armaduras": "Gibão de peles  CA+3 Penalidade -2; Brunea  CA+4 Penalidade -3; Cota de malha  CA+5 Penalidade -3",
-      "Caracteísticas_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
+      "Características_Raciais": "Visão na Penumbra; +1 talento bônus à escolha do jogador; 1 perícia treinada extra; +2 em testes de Vontade contra encantamentos e +2 em testes de Identifi car Magia e Percepção."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Gnoll",
+      "Classe": "Samurai",
+      "Raça": "Gnoll",
       "Nome": "",
       "Alinhamento": "Leal e Neutro",
       "PV": "23",
@@ -3136,13 +3136,13 @@
       "Pericias": "Conhecimento 4, Intuição 4, Iniciativa 5, Atuação 5, Intimidação 5, Percepção 4, Ofício 4, Atletismo 4, Cavalgar 5, Diplomacia 5, Adestrar Animais 5, Acrobacia 5",
       "Armas": "Katana 1d10 Crítico:19-20; Wakizashi+1 1d8+1 Crítico:19-20",
       "Armaduras": "Brunea  CA+4 Penalidade -3;",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Faro e Mordida."
+      "Características_Raciais": "Classe de armadura +1; Faro e Mordida."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Gnoll",
+      "Classe": "Samurai",
+      "Raça": "Gnoll",
       "Nome": "",
       "Alinhamento": "Caotico e Bom",
       "PV": "22",
@@ -3165,13 +3165,13 @@
       "Pericias": "Atletismo 6; Diplomacia 4; Percepção 4; Ofício 5; Intimidação 4; Intuição 4; Cavalgar 5; Atuação 4; Iniciativa 5; Adestrar Animais 4; Conhecimento 5; Acrobacia 5",
       "Armas": "Katana+1 1d10+1 Crítico:19-20; Wakizashi 1d8 Crítico:19-20",
       "Armaduras": "Gibão de peles  CA+3",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Faro e Mordida."
+      "Características_Raciais": "Classe de armadura +1; Faro e Mordida."
     }
   },
   {
     "charData": {
-      "class": "Samurai",
-      "race": "Gnoll",
+      "Classe": "Samurai",
+      "Raça": "Gnoll",
       "Nome": "",
       "Alinhamento": "Neutro e Bom",
       "PV": "24",
@@ -3194,13 +3194,13 @@
       "Pericias": "Intuição 4, Ofício 4, Conhecimento 2, Intimidação 4, Atletismo 5, Iniciativa 5, Acrobacia 5, Atuação 4, Cavalgar 5, Percepção 4, Diplomacia 4, Adestrar Animais 4",
       "Armas": "Katana 1d10 Crítico:19-20; Wakizashi+1 1d8+1 Crítico:19-20",
       "Armaduras": "Cota de malha  CA+5 Penalidade -3",
-      "Caracteísticas_Raciais": "Classe de armadura +1; Faro e Mordida."
+      "Características_Raciais": "Classe de armadura +1; Faro e Mordida."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Humano",
+      "Classe": "Swashbuckler",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "16",
@@ -3223,13 +3223,13 @@
       "Pericias": "Atuação 6; Obter Informação 6; Intimidação 6; Enganação 6; Diplomacia 6; Acrobacia 4; Percepção 6; Furtividade 4; Cavalgar 4; Atletismo 3; Iniciativa 4; Ofício 7",
       "Armas": "Florete 1d6 Crítico:18-20; Arco composto 1d6 Crítico: x3",
       "Armaduras": "Camisa de cota de Malha CA+4 Penalidade -2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Humano",
+      "Classe": "Swashbuckler",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "16",
@@ -3252,13 +3252,13 @@
       "Pericias": "Obter Informação 6; Intimidação 6; Diplomacia 6; Enganação 6; Iniciativa 3; Atletismo 4; Percepção 6; Cavalgar 3; Acrobacia 3; Furtividade 3; Atuação 6; Ofício 8",
       "Armas": "Cimitarra 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20;",
       "Armaduras": "Camisa de cota de Malha CA+4 Penalidade -2",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Humano",
+      "Classe": "Swashbuckler",
+      "Raça": "Humano",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "16",
@@ -3281,13 +3281,13 @@
       "Pericias": "Acrobacia 7; Iniciativa 7; Ofício 5; Enganação 6; Furtividade 7; Cavalgar 7; Intimidação 6; Diplomacia 6; Percepção 7; Obter Informação 6; Atletismo 4; Atuação 6",
       "Armas": "Florete 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20;",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0;",
-      "Caracteísticas_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
+      "Características_Raciais": "+2 perícias treinadas extras; +2 talentos adicionais à escolha do jogador."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Elfo-do-Mar",
+      "Classe": "Swashbuckler",
+      "Raça": "Elfo-do-Mar",
       "Nome": "",
       "Alinhamento": "Neutro e Neutro",
       "PV": "18",
@@ -3310,13 +3310,13 @@
       "Pericias": "Intimidação 6; Obter Informação 6; Percepção 5; Cavalgar 5; Acrobacia 5; Atletismo 5; Furtividade 5; Atuação 6; Enganação 6; Diplomacia 6; Iniciativa 5; Ofício 6",
       "Armas": "Cimitarra 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20;",
       "Armaduras": "Corselete de couro CA+2 Penalidade -0;",
-      "Caracteísticas_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
+      "Características_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Elfo-do-Mar",
+      "Classe": "Swashbuckler",
+      "Raça": "Elfo-do-Mar",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "19",
@@ -3339,13 +3339,13 @@
       "Pericias": "Diplomacia 5; Cavalgar 8; Atletismo 6; Acrobacia 8; Furtividade 8; Ofício 5; Obter Informação 5; Percepção 5; Intimidação 5; Enganação 5; Iniciativa 8; Atuação 5",
       "Armas": "Cimitarra 1d6 Crítico:18-20; Arco composto 1d6 Crítico: x3",
       "Armaduras": "Armadura acolchoada CA+1 Penalidade 0;",
-      "Caracteísticas_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
+      "Características_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Elfo-do-Mar",
+      "Classe": "Swashbuckler",
+      "Raça": "Elfo-do-Mar",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "16",
@@ -3369,13 +3369,13 @@
       "Armas": "Cimitarra 1d6 Crítico:18-20; Arco composto 1d6 Crítico: x3",
       "Armaduras": "Corselete de couro CA+2 Penalidade -0;",
       "Escudos": "Escudo leve CA+1 Penalidade –1",
-      "Caracteísticas_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
+      "Características_Raciais": "Deslocamento 9m; natação 9m; Visão na Penumbra; Percepção às cegas 18m; apenas embaixo d’água; Elfos-do-mar sabem usar arpão (azagaia); tridente e rede. Também recebem Foco em Arma para uma destas armas como um talento adicional; Elfos-do-mar recebem +2 na classe de armadura e testes de Acrobacia; Atletismo; Furtividade; Percepção e Sobrevivência embaixo d’água; Um elfo-do-mar pode respirar fora d’água durante um número de horas igual a seu valor de Constituição."
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Halfling",
+      "Classe": "Swashbuckler",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "15",
@@ -3398,13 +3398,13 @@
       "Pericias": "Furtividade 6; Diplomacia 5; Atuação 5; Iniciativa 6; Percepção 4; Atletismo 3; Obter Informação 5; Ofício 6; Acrobacia 6; Cavalgar 6; Enganação 5; Intimidação 5",
       "Armas": "Florete 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20;",
       "Armaduras": "Camisa de cota de Malha CA+4 Penalidade -2",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Halfling",
+      "Classe": "Swashbuckler",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caótico e Bom",
       "PV": "16",
@@ -3427,13 +3427,13 @@
       "Pericias": "Furtividade 5; Cavalgar 5; Diplomacia 6; Acrobacia 5; Percepção 6; Iniciativa 5; Ofício 4; Intimidação 6; Atuação 6; Enganação 6; Atletismo 4; Obter Informação 6",
       "Armas": "Cimitarra 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20;",
       "Armaduras": "Corselete de couro CA+2 Penalidade -0;",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   },
   {
     "charData": {
-      "class": "Swashbuckler",
-      "race": "Halfling",
+      "Classe": "Swashbuckler",
+      "Raça": "Halfling",
       "Nome": "",
       "Alinhamento": "Caótico e Neutro",
       "PV": "18",
@@ -3456,7 +3456,7 @@
       "Pericias": "Enganação 7; Diplomacia 7; Obter Informação 7; Intimidação 7; Furtividade 6; Cavalgar 6; Ofício 4; Iniciativa 6; Atuação 7; Acrobacia 6; Percepção 6; Atletismo 3",
       "Armas": "Cimitarra 1d6 Crítico:18-20; Besta Leve 1d8 Crítico:19-20",
       "Armaduras": "Corselete de couro CA+2 Penalidade -0;",
-      "Caracteísticas_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
+      "Características_Raciais": "Tamanho Pequeno; +2 em todos os testes de resistência; +1 em jogadas de ataque com armas de arremesso e fundas; Atletismo é baseada em Destreza; +4 em testes de Enganação"
     }
   }
 ]
