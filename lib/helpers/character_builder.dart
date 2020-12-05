@@ -26,6 +26,11 @@ class CharacterBuilder {
     selectedAnswers.add(answer);
   }
 
+  void clearBuilder() {
+    resultingScores = [];
+    selectedAnswers = [];
+  }
+
   void calculateCharacterScores(){
     selectedAnswers.forEach((answer){
       answer.options.forEach((option){

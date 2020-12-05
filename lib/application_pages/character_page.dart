@@ -15,7 +15,6 @@ class _CharacterPageState extends State<CharacterPage> {
     CharacterBuilder characterBuilder = CharacterBuilder();
 //    String tendencyEthics = characterData.tendencyEthics;
 //    String tendencyMorality = characterData.tendencyMorality;
-
     return Scaffold(
       appBar: AppBar(
         title: Text('Character Sheet'),
@@ -52,6 +51,7 @@ class _CharacterPageState extends State<CharacterPage> {
                   ];
                 } else {
                   children = [CharacterAttributesWidget(characterDataList: character.characterData,)];
+                  characterBuilder.clearBuilder();
 					 }
               } else if (snapshot.hasError) {
                 children = <Widget>[

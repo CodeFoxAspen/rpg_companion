@@ -68,7 +68,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Força e Esperteza. Algum problema em ser forte e agil?",
+        "text": "Força e Esperteza. Algum problema em ser forte e ágil?",
         "bárbaro": 0.0,
         "bardo": 0.25,
         "clérigo": 0.0,
@@ -122,7 +122,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Ser naturalmente talentoso nas coias e, meio que, moldar o talento que já existe.",
+        "text": "Ser naturalmente talentoso nas coisas e, meio que, moldar o talento que já existe.",
         "bárbaro": 0.0,
         "bardo": 0.5,
         "clérigo": 0.5,
@@ -326,7 +326,7 @@
         "swashbuckler": 0.5
       },
       {
-        "text": "Armas Leves. Como adagas e espadas curtas, faceis e rapidas de esconder.",
+        "text": "Armas Leves. Como adagas e espadas curtas, fáceis e rápidas de esconder.",
         "bárbaro": 0.0,
         "bardo": 0.5,
         "clérigo": 0.0,
@@ -342,7 +342,7 @@
         "swashbuckler": 0.5
       },
       {
-        "text": "Armas versáteis, como espadas longas e lanças. Podem ser usadas de várias maneiras ou até serem arremesadas contra inimigos ou unidas a escudos ou outras armas.",
+        "text": "Armas versáteis, como espadas longas e lanças. Podem ser usadas de várias maneiras ou até serem arremessadas contra inimigos ou unidas a escudos ou outras armas.",
         "bárbaro": 0.0,
         "bardo": 0.25,
         "clérigo": 0.0,
@@ -424,7 +424,7 @@
     ]
   },
   {
-    "title": "Você complementa sua proesa marcial com...",
+    "title": "Você complementa sua proeza marcial com...",
     "target": "Classe",
     "choices": [
       {
@@ -492,7 +492,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "FURIA!!!.",
+        "text": "FÚRIA!!!.",
         "bárbaro": 1.0,
         "bardo": 0.25,
         "clérigo": 0.0,
@@ -508,7 +508,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Proesa marcial? Lutar no mano a mano? Está louco?",
+        "text": "Proeza marcial? Lutar no mano a mano? Está louco?",
         "bárbaro": 0.0,
         "bardo": 0.25,
         "clérigo": 0.0,
@@ -562,7 +562,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Um  espirito implacavel. A habilidade de ser fiel as suas crenças e não desistir frente a adversidade é o que faz uma pessoa gloriosa.",
+        "text": "Um  espirito implacável. A habilidade de ser fiel as suas crenças e não desistir frente a adversidade é o que faz uma pessoa gloriosa.",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.75,
@@ -594,7 +594,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Deuses, espiritos, demonios... poderes alem de meros mortais são mantidos em segredo por seres de grande poder.",
+        "text": "Deuses, espíritos, demônios... poderes além de meros mortais são mantidos em segredo por seres de grande poder.",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.75,
@@ -610,7 +610,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "A natureza. O poder para dar a vida e de tira-la. É a crueldade e a bindade, agua e fogo. A natureza é tudo.",
+        "text": "A natureza. O poder para dar a vida e de tirá-la. É a crueldade e a bondade, água e fogo. A natureza é tudo.",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.0,
@@ -750,7 +750,7 @@
     "target": "Classe",
     "choices": [
       {
-        "text": "Dedicaria minha vida ao estudo academico do sobrenatural e arcano.",
+        "text": "Dedicaria minha vida ao estudo acadêmico do sobrenatural e arcano.",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.0,
@@ -766,7 +766,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Dedicaria minha vida a ser mestre em magia, mas não acho que o estudo academico é a maneira para se aprender sobre a essencia da magia.",
+        "text": "Dedicaria minha vida a ser mestre em magia, mas não acho que o estudo acadêmico é a maneira para se aprender sobre a essência da magia.",
         "bárbaro": 0.0,
         "bardo": 0.25,
         "clérigo": 0.25,
@@ -782,7 +782,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Magia tem o potencial para grande poder, mas é muito ampla como um todo. Eu daria foco em um escopo menor menor de magia e me tornaria mestre nisso",
+        "text": "Magia tem o potencial para grande poder, mas é muito ampla como um todo. Eu daria foco em um escopo menor de magia e me tornaria mestre nisso",
         "bárbaro": 0.0,
         "bardo": 0.5,
         "clérigo": 0.25,
@@ -932,7 +932,7 @@
         "swashbuckler": 0.25
       },
       {
-        "text": "Não muito bom. Eu acabo sendo ou o estranho ou o rispido.",
+        "text": "Não muito bom. Eu acabo sendo ou o estranho ou o ríspido.",
         "bárbaro": 1.0,
         "bardo": 0.0,
         "clérigo": 0.25,
@@ -970,7 +970,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Destreza. Sou esguio, agil e preciso.",
+        "text": "Destreza. Sou esguio, ágil e preciso.",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.0,
@@ -1002,7 +1002,7 @@
         "swashbuckler": 0.0
       },
       {
-        "text": "Inteligencia. Possuo a vontade de aprender, a capacidade de obter muito conhecimento e desenvolver racicionio lógico",
+        "text": "Inteligencia. Possuo a vontade de aprender, a capacidade de obter muito conhecimento e desenvolver raciocínio lógico",
         "bárbaro": 0.0,
         "bardo": 0.0,
         "clérigo": 0.0,

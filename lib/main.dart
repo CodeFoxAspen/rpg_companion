@@ -100,13 +100,13 @@ class _FlavorPageState extends State<FlavorPage> {
                       TextSpan(text: '    Interpretar um personagem\n\n', style: TextStyle(fontWeight: FontWeight.bold, fontSize: 22)),
                       TextSpan(
                           text:
-                              '    Quando jogar RPG lembre-se de que você age pelo seu personagem. Interpreta-lo é permitir-se entrar no mundo ficticio criado pelo Mestre da mesa e atuar ativamente dentro dele.\n\n'),
+                              '    Quando jogar RPG se lembre de que: você age pelo seu personagem. Interpretá-lo é permitir-se entrar no mundo fictício criado pelo Mestre da mesa e atuar ativamente dentro dele.\n\n'),
                       TextSpan(
                           text:
                               '    Explore situações fora do seu cotidiano, aprenda a lidar com os desafios! Aja com liberdade, imagine e faça. Você e seu grupo serão os responsáveis pela própria glória.\n\n'),
                       TextSpan(
                           text:
-                              '    Se estiver confortável, lembre-se de falar pelo seu personagem. É possível dizer ao grupo o que irá fazer, mas você pode realmente interpretar e ser a voz e o sotaque do seu próprio personagem!'),
+                              '    Se estiver confortável, lembre-se de falar pelo seu personagem. É possível dizer ao grupo o que fará, mas você pode realmente interpretar e ser a voz e o sotaque do seu próprio personagem!'),
                     ],
                   ),
                 ),
@@ -233,7 +233,6 @@ class QuestionWidget extends StatefulWidget {
 
 class _QuestionWidgetState extends State<QuestionWidget> {
   final CharacterBuilder characterBuilder = new CharacterBuilder();
-
   @override
   Widget build(BuildContext context) {
     return Column(
